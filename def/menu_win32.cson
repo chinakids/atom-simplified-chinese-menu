@@ -147,7 +147,7 @@ Menu:
 		value: "查看(&V)"
 		submenu:
 			"&Reload":
-				value: "充新加载(&R)"
+				value: "重新加载(&R)"
 			"Toggle &Full Screen":
 				value: "全屏切换(&F)"
 			"Toggle Menu Bar":

@@ -32,7 +32,7 @@ Context:
   "atom-pane[data-active-item-path] .tab.active":
     "tree-view:reveal-active-file": "显示目录树"
   ".overlayer":
-    "autocomplete:toggle": "自动完车给你"
+    "autocomplete:toggle": "自动完车"
     "grammar-selector:show": "语法选择"
   ".image-view":
     "image-view:reload": "重新载入图像"

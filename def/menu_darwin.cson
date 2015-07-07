@@ -224,7 +224,7 @@ Menu:
 		value: "查看"
 		submenu:
 			Reload:
-				value: "充新加载"
+				value: "重新加载"
 			"Toggle Full Screen":
 				value: "全屏切换"
 			Panes:
