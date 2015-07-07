@@ -1,10 +1,14 @@
 {
-  "name": "simplified-chinese-menu",
+  "name": "Git",
   "main": "./lib/main",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "atom 的简体中文语言包",
   "repository": "https://github.com/chinakids/atom-simplified-chinese-menu",
   "license": "MIT",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
