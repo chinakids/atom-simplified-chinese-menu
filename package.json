@@ -7,7 +7,12 @@
   "license": "MIT",
   "keywords": [
     "language",
-    "grammar"
+    "grammar",
+    "chinesee",
+    "simplified",
+    "中文",
+    "汉化",
+    "chinakids"
   ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
