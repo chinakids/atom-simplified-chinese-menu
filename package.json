@@ -1,5 +1,5 @@
 {
-  "name": "chinese-menu",
+  "name": "simplified-chinese-menu",
   "main": "./lib/main",
   "version": "3.0.1",
   "description": "atom 的简体中文语言包",
