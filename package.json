@@ -1,7 +1,7 @@
 {
   "name": "chinese-menu",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "3.0.1",
   "description": "atom 的简体中文语言包",
   "repository": "https://github.com/chinakids/atom-chinese-menu",
   "license": "MIT",
