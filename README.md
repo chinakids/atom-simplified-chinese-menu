@@ -1,4 +1,4 @@
-# Atom - Chinese Menu
+# Atom - Chinese(Simplified) Menu
 
 Atom  的简体中文汉化语言包
 
