@@ -1,9 +1,9 @@
 {
-  "name": "japanese-menu",
+  "name": "chinese-menu",
   "main": "./lib/main",
-  "version": "0.7.0",
-  "description": "メニューバーとコンテキストメニューを日本語化します。",
-  "repository": "https://github.com/syon/atom-japanese-menu",
+  "version": "0.0.1",
+  "description": "atom 的简体中文语言包",
+  "repository": "https://github.com/chinakids/atom-chinese-menu",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
