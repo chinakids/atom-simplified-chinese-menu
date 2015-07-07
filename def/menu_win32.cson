@@ -1,289 +1,289 @@
 Menu:
 	"&File":
-		value: "ファイル(&F)"
+		value: "文件(&F)"
 		submenu:
 			"New &Window":
-				value: "新規ウインドウ(&W)"
+				value: "新建窗口(&W)"
 			"&New File":
-				value: "新規ファイル(&N)"
+				value: "新建文件(&N)"
 			"&Open File...":
-				value: "開く(&O)..."
+				value: "打开文件(&O)..."
 			"Open Folder...":
-				value: "フォルダを開く..."
+				value: "打开文件夹..."
 			"Add Project Folder...":
-				value: "プロジェクトフォルダを追加..."
+				value: "添加项目文件夹..."
 			"Reopen Last &Item":
-				value: "最後に使用したファイルを開く(&I)"
+				value: "打开最后一次使用的项目(&I)"
 			"Se&ttings":
-				value: "環境設定(&T)..."
+				value: "设置(&T)..."
 			"Open Your Config":
-				value: "個人設定を開く"
+				value: "个人设置"
 			"Open Your Init Script":
-				value: "起動スクリプトを開く"
+				value: "个人启动脚本"
 			"Open Your Keymap":
-				value: "キーマップを開く"
+				value: "个人键盘映射"
 			"Open Your Snippets":
-				value: "スニペットを開く"
+				value: "个人代码片段"
 			"Open Your Stylesheet":
-				value: "スタイルシートを開く"
+				value: "个人样式设置"
 			"&Save":
 				value: "保存(&S)"
 			"Save &As...":
-				value: "別名で保存(&A)..."
+				value: "另存为(&A)..."
 			"Save A&ll":
-				value: "すべて保存(&L)"
+				value: "全部保存(&L)"
 			"&Close Tab":
-				value: "タブを閉じる(&C)"
+				value: "关闭标签页(&C)"
 			"Close &Pane":
-				value: "ペインを閉じる(&P)"
+				value: "关闭窗格(&P)"
 			"Clos&e Window":
-				value: "ウインドウを閉じる(&E)"
+				value: "关闭窗口(&E)"
 			"E&xit":
-				value: "終了(&X)"
+				value: "退出(&X)"
 	"&Edit":
-		value: "編集(&E)"
+		value: "编辑(&E)"
 		submenu:
 			"&Undo":
-				value: "取り消す(&U)"
+				value: "撤销(&U)"
 			"&Redo":
-				value: "やり直す(&R)"
+				value: "重做(&R)"
 			"Cu&t":
-				value: "カット(&T)"
+				value: "剪切(&T)"
 			"&Copy":
-				value: "コピー(&C)"
+				value: "复制(&C)"
 			"Copy Pat&h":
-				value: "パスをコピー(&H)"
+				value: "复制路径(&H)"
 			"&Paste":
-				value: "ペースト(&P)"
+				value: "粘贴(&P)"
 			"Select &All":
-				value: "すべて選択(&A)"
+				value: "全选(&A)"
 			"&Toggle Comments":
-				value: "コメントの切替(&T)"
+				value: "切换注释(&T)"
 			Lines:
 				value: "行"
 				submenu:
 					"&Indent":
-						value: "インデントを追加(&I)"
+						value: "添加缩进(&I)"
 					"&Outdent":
-						value: "インデントを戻す(&O)"
+						value: "减少缩进(&O)"
 					"&Auto Indent":
-						value: "自動インデント(&A)"
+						value: "自动缩进(&A)"
 					"Move Line &Up":
-						value: "選択中の行を上に移動(&U)"
+						value: "向上移动行(&U)"
 					"Move Line &Down":
-						value: "選択中の行を下に移動(&D)"
+						value: "向下移动行(&D)"
 					"Du&plicate Lines":
-						value: "行を複製(&P)"
+						value: "复制行(&P)"
 					"D&elete Line":
-						value: "行を削除(&E)"
+						value: "删除行(&E)"
 					"&Join Lines":
-						value: "行を結合(&J)"
+						value: "合并行(&J)"
 			Text:
-				value: "テキスト"
+				value: "文本"
 				submenu:
 					"&Upper Case":
-						value: "大文字に変換(&U)"
+						value: "转大写(&U)"
 					"&Lower Case":
-						value: "小文字に変換(&L)"
+						value: "转小写(&L)"
 					"Delete to End of &Word":
-						value: "単語の末尾まで削除(&W)"
+						value: "删除单词末尾(&W)"
 					"Delete to Previous Word Boundary":
-						value: "前の単語の境界まで削除"
+						value: "删除单词前部"
 					"Delete to Next Word Boundary":
-						value: "次の単語の境界まで削除"
+						value: "删除单词到下一个边界"
 					"&Delete Line":
-						value: "行を削除(&D)"
+						value: "删除行(&D)"
 					"&Transpose":
-						value: "前後を入れ替え(&T)"
+						value: "前后交换(&T)"
 			Folding:
-				value: "折りたたみ"
+				value: "折叠"
 				submenu:
 					"&Fold":
-						value: "折りたたむ(&F)"
+						value: "折叠(&F)"
 					"&Unfold":
-						value: "折りたたみを戻す(&U)"
+						value: "展开(&U)"
 					"Unfold &All":
-						value: "すべての折りたたみを戻す(&A)"
+						value: "展开所有(&A)"
 					"Fol&d All":
-						value: "すべて折りたたむ(&D)"
+						value: "折叠所有(&D)"
 					"Fold Level 1":
-						value: "1段階折りたたむ"
+						value: "展开一层"
 					"Fold Level 2":
-						value: "2段階折りたたむ"
+						value: "展开两层"
 					"Fold Level 3":
-						value: "3段階折りたたむ"
+						value: "展开三层"
 					"Fold Level 4":
-						value: "4段階折りたたむ"
+						value: "展开四层"
 					"Fold Level 5":
-						value: "5段階折りたたむ"
+						value: "展开五层"
 					"Fold Level 6":
-						value: "6段階折りたたむ"
+						value: "展开六层"
 					"Fold Level 7":
-						value: "7段階折りたたむ"
+						value: "展开七层"
 					"Fold Level 8":
-						value: "8段階折りたたむ"
+						value: "展开八层"
 					"Fold Level 9":
-						value: "9段階折りたたむ"
+						value: "展开九层"
 			"Reflow Selection":
-				value: "選択範囲をリフロー"
+				value: "折叠选中"
 			Bookmark:
-				value: "ブックマーク"
+				value: "书签"
 				submenu:
 					"View All":
-						value: "すべて表示"
+						value: "显示全部"
 					"Toggle Bookmark":
-						value: "ブックマークの切替"
+						value: "切换书签"
 					"Jump to Next Bookmark":
-						value: "次のブックマークへ"
+						value: "跳转到下一个书签"
 					"Jump to Previous Bookmark":
-						value: "前のブックマークへ"
+						value: "跳转到上一个书签"
 			"Select Encoding":
-				value: "エンコーディング選択"
+				value: "选择编码"
 			"Go to Line":
-				value: "指定行に移動"
+				value: "跳转到指定行"
 			"Select Grammar":
-				value: "文法を選択"
+				value: "语法选择"
 	"&View":
-		value: "表示(&V)"
+		value: "查看(&V)"
 		submenu:
 			"&Reload":
-				value: "再読み込み(&R)"
+				value: "充新加载(&R)"
 			"Toggle &Full Screen":
-				value: "フルスクリーン切替(&F)"
+				value: "全屏切换(&F)"
 			"Toggle Menu Bar":
-				value: "メニューバー切替"
+				value: "菜单栏切换"
 			Panes:
-				value: "ペイン"
+				value: "窗格"
 				submenu:
 					"Split Up":
-						value: "ペイン分割 ↑"
+						value: "窗格拆分 ↑"
 					"Split Down":
-						value: "ペイン分割 ↓"
+						value: "窗格拆分 ↓"
 					"Split Left":
-						value: "ペイン分割 ←"
+						value: "窗格拆分 ←"
 					"Split Right":
-						value: "ペイン分割 →"
+						value: "窗格拆分 →"
 					"Focus Next Pane":
-						value: "次のペインにフォーカス"
+						value: "焦点移到后一个窗格"
 					"Focus Previous Pane":
-						value: "前のペインにフォーカス"
+						value: "焦点移到前一个窗格"
 					"Focus Pane Above":
-						value: "ペインにフォーカス ↑"
+						value: "焦点移到上面的窗格 ↑"
 					"Focus Pane Below":
-						value: "ペインにフォーカス ↓"
+						value: "焦点移到下面的窗格 ↓"
 					"Focus Pane On Left":
-						value: "ペインにフォーカス ←"
+						value: "焦点移到左面的窗格 ←"
 					"Focus Pane On Right":
-						value: "ペインにフォーカス →"
+						value: "焦点移到右面的窗格 →"
 					"Close Pane":
-						value: "ペインを閉じる"
+						value: "关闭窗格"
 			Developer:
-				value: "開発"
+				value: "开发"
 				submenu:
 					"Open In &Dev Mode...":
-						value: "開発モードで開く(&D)"
+						value: "打开开发模式(&D)"
 					"Run &Atom Specs":
-						value: "Atom Specs を実行(&A)"
+						value: "运行Atom规范(&A)"
 					"Run Package &Specs":
-						value: "パッケージ Specs を実行(&S)"
+						value: "运行Package规范(&S)"
 					"Toggle Developer &Tools":
-						value: "デベロッパー ツール(&T)"
+						value: "切换开发者工具(&T)"
 			"&Increase Font Size":
-				value: "フォントサイズの拡大"
+				value: "增大字体 ↑"
 			"&Decrease Font Size":
-				value: "フォントサイズの縮小"
+				value: "减小字体 ↓"
 			"Re&set Font Size":
-				value: "フォントサイズのリセット"
+				value: "重置字体"
 			"Toggle Soft &Wrap":
-				value: "自動折り返しの切替(&W)"
+				value: "切换自动换行(&W)"
 			"Toggle Command Palette":
-				value: "コマンドパレット"
+				value: "切换命令面板"
 			"Toggle Tree View":
-				value: "ツリービュー"
+				value: "切换目录树"
 	"&Selection":
-		value: "選択(&S)"
+		value: "选择(&S)"
 		submenu:
 			"Add Selection &Above":
-				value: "選択範囲を広げる ↑(&A)"
+				value: "扩大选择范围 ↑(&A)"
 			"Add Selection &Below":
-				value: "選択範囲を広げる ↓(&B)"
+				value: "减小选择范围 ↓(&B)"
 			"S&plit into Lines":
-				value: "選択範囲を各行に分割して同時操作(&P)"
+				value: "通过选择划分行(&P)"
 			"Single Selection":
-				value: "同時操作状態を解除"
+				value: "解除同时操作状态"
 			"Select to &Top":
-				value: "ファイル先頭まで選択(&T)"
+				value: "向上选择到文件头部(&T)"
 			"Select to Botto&m":
-				value: "ファイル末尾まで選択(&M)"
+				value: "向下选择到文件尾部(&M)"
 			"Select &Line":
-				value: "行を選択(&L)"
+				value: "选择行(&L)"
 			"Select &Word":
-				value: "単語を選択(&W)"
+				value: "选择单词(&W)"
 			"Select to Beginning of W&ord":
-				value: "単語の先頭まで選択(&O)"
+				value: "选择到单词起始(&O)"
 			"Select to Beginning of L&ine":
-				value: "行頭まで選択(&I)"
+				value: "选择到行起始(&I)"
 			"Select to First &Character of Line":
-				value: "行の最初の文字まで選択(&C)"
+				value: "选择到行起始的第一个字符(&C)"
 			"Select to End of Wor&d":
-				value: "単語の末尾まで選択(&D)"
+				value: "选择到单词尾部(&D)"
 			"Select to End of Lin&e":
-				value: "行末まで選択(&E)"
+				value: "选择到单词尾部(&E)"
 			"Select Inside Brackets":
-				value: "カッコ内を選択"
+				value: "选择括号内内容"
 	"F&ind":
-		value: "検索(&I)"
+		value: "查找(&I)"
 		submenu:
 			"Find in Buffer":
-				value: "検索..."
+				value: "查找..."
 			"Replace in Buffer":
-				value: "置換..."
+				value: "替换..."
 			"Select Next":
-				value: "次の一致も選択"
+				value: "选择下一个"
 			"Select All":
-				value: "一致をすべて選択"
+				value: "全选"
 			"Toggle Find in Buffer":
-				value: "検索パネル切替"
+				value: "查找缓冲区"
 			"Find in Project":
-				value: "プロジェクト内で検索..."
+				value: "在项目内查找..."
 			"Toggle Find in Project":
-				value: "プロジェクト内で検索パネル切替"
+				value: "切换项目"
 			"Find Next":
-				value: "次を検索"
+				value: "下一个"
 			"Find Previous":
-				value: "前を検索"
+				value: "上一个"
 			"Replace Next":
-				value: "次を置換"
+				value: "替换下一个"
 			"Replace All":
-				value: "すべて置換"
+				value: "全部替换"
 			"Find Buffer":
-				value: "バッファを検索"
+				value: "查找缓冲区"
 			"Find File":
-				value: "ファイルを検索"
+				value: "查找文件"
 			"Find Modified File":
-				value: "修正されたファイルを検索"
+				value: "查找修改后的文件"
 	"&Packages":
-		value: "パッケージ(&P)"
+		value: "插件包(&P)"
 	"&Help":
-		value: "ヘルプ(&H)"
+		value: "帮助(&H)"
 		submenu:
 			"View &Terms of Use":
-			  value: "利用条件"
+			  value: "使用条款"
 			"View &License":
-			  value: "ライセンス"
+			  value: "查看许可"
 			"&Documentation":
-				value: "ドキュメント(&D)"
+				value: "文档(&D)"
 			Roadmap:
-				value: "ロードマップ"
+				value: "路线图"
 			"Frequently Asked Questions":
-				value: "よくあるご質問"
+				value: "经常问的问题"
 			"Community Discussions":
-				value: "コミュニティ ディスカッション"
+				value: "讨论社区"
 			"Report Issue":
-				value: "問題の報告"
+				value: "报告问题"
 			"Search Issues":
-				value: "報告されている問題"
+				value: "搜索问题"
 			"Release Notes":
-				value: "リリースノート"
+				value: "发行说明"
 			"Welcome Guide":
-				value: "ウェルカムガイド"
+				value: "欢迎指南"
