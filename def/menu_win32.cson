@@ -17,15 +17,15 @@ Menu:
 			"Se&ttings":
 				value: "设置(&T)..."
 			"Open Your Config":
-				value: "个人设置"
+				value: "用户设置"
 			"Open Your Init Script":
-				value: "个人启动脚本"
+				value: "用户启动脚本"
 			"Open Your Keymap":
-				value: "个人键盘映射"
+				value: "用户键盘映射"
 			"Open Your Snippets":
-				value: "个人代码片段"
+				value: "用户代码片段"
 			"Open Your Stylesheet":
-				value: "个人样式设置"
+				value: "用户样式设置"
 			"&Save":
 				value: "保存(&S)"
 			"Save &As...":
@@ -46,7 +46,7 @@ Menu:
 			"&Undo":
 				value: "撤销(&U)"
 			"&Redo":
-				value: "重做(&R)"
+				value: "重复(&R)"
 			"Cu&t":
 				value: "剪切(&T)"
 			"&Copy":

@@ -34,7 +34,7 @@ Menu:
 			"&Undo":
 				value: "编辑(&U)"
 			"&Redo":
-				value: "重做(&R)"
+				value: "重复(&R)"
 			"&Cut":
 				value: "剪切(&C)"
 			"C&opy":
@@ -115,15 +115,15 @@ Menu:
 			"&Preferences":
 				value: "设置(&P)..."
 			"Open Your Config":
-				value: "个人设置"
+				value: "用户设置"
 			"Open Your Init Script":
-				value: "个人启动脚本"
+				value: "用户启动脚本"
 			"Open Your Keymap":
-				value: "个人键盘映射"
+				value: "用户键盘映射"
 			"Open Your Snippets":
-				value: "个人代码片段"
+				value: "用户代码片段"
 			"Open Your Stylesheet":
-				value: "个人样式设置"
+				value: "用户样式设置"
 			"Reflow Selection":
 				value: "折叠选中"
 			Bookmark:

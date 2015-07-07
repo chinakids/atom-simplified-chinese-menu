@@ -7,17 +7,17 @@ Menu:
 			"View License":
 				value: "查看许可"
 			"Preferences...":
-				value: "首选项"
+				value: "首选项..."
 			"Open Your Config":
-				value: "个人设置"
+				value: "用户设置"
 			"Open Your Init Script":
-				value: "个人启动脚本"
+				value: "用户启动脚本"
 			"Open Your Keymap":
-				value: "个人键盘映射"
+				value: "用户键盘映射"
 			"Open Your Snippets":
-				value: "个人代码片段"
+				value: "用户代码片段"
 			"Open Your Stylesheet":
-				value: "个人样式设置"
+				value: "用户样式设置"
 			"Install Shell Commands":
 				value: "安装Shell命令"
 			"Hide Atom":
@@ -61,7 +61,7 @@ Menu:
 			Undo:
 				value: "撤销"
 			Redo:
-				value: "重做"
+				value: "重复"
 			Cut:
 				value: "剪切"
 			Copy:

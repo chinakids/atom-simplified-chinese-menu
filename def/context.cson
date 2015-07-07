@@ -3,10 +3,10 @@ Context:
     "application:inspect": "验证元素"
   "atom-text-editor":
     "color-picker:open": "拾色器"
-    "minimap:toggle": "切换小地图"
+    "minimap:toggle": "切换代码地图"
   "atom-text-editor, .overlayer":
     "core:undo": "撤销"
-    "core:redo": "重做"
+    "core:redo": "重复"
     "core:cut": "剪切"
     "core:copy": "复制"
     "core:paste": "粘贴"
@@ -26,11 +26,11 @@ Context:
   "atom-text-editor:not([mini])":
     "encoding-selector:show": "编码选择"
     "spell-check:correct-misspelling": "拼写检查"
-    "symbols-view:go-to-declaration": "转至声明"
+    "symbols-view:go-to-declaration": "跳转至声明点"
   "atom-pane[data-active-item-path] .item-views":
-    "tree-view:reveal-active-file": "显示目录树"
+    "tree-view:reveal-active-file": "定位到目录"
   "atom-pane[data-active-item-path] .tab.active":
-    "tree-view:reveal-active-file": "显示目录树"
+    "tree-view:reveal-active-file": "定位到目录"
   ".overlayer":
     "autocomplete:toggle": "自动完车"
     "grammar-selector:show": "语法选择"
