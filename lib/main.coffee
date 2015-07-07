@@ -1,9 +1,9 @@
 module.exports =
 
-  activate: (state) ->
+  activate : (state) ->
     setTimeout(@delay, 0, this)
 
-  delay: (that) ->
+  delay : (that) ->
     CSON = require 'cson'
     defM = CSON.load __dirname + "/../def/menu_#{process.platform}.cson"
     defC = CSON.load __dirname + "/../def/context.cson"
@@ -15,7 +15,7 @@ module.exports =
     # ContextMenu
     that.updateContextMenu(defC.Context)
 
-  updateMenu: (menuList, def) ->
+  updateMenu : (menuList, def) ->
     return if not def
     for menu in menuList
       continue if not menu.label
@@ -26,7 +26,7 @@ module.exports =
       if menu.submenu?
         @updateMenu(menu.submenu, set.submenu)
 
-  updateContextMenu: (def) ->
+  updateContextMenu : (def) ->
     for itemSet in atom.contextMenu.itemSets
       set = def[itemSet.selector]
       continue if not set
