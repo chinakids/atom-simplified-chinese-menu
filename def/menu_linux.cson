@@ -1,6 +1,6 @@
 Menu:
 	"&File":
-		value: "ファイル(&F)"
+		value: " 文件(&F)"
 		submenu:
 			"New &Window":
 				value: "新建窗口(&W)"
