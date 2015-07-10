@@ -26,7 +26,7 @@ Menu:
 				value: "隐藏其他"
 			"Show All":
 				value: "显示全部"
-			Quit:
+			"Quit":
 				value: "退出Atom"
 			"Check for Update":
 				value: "检查更新"
@@ -43,7 +43,7 @@ Menu:
 				value: "添加项目文件夹..."
 			"Reopen Last Item":
 				value: "打开最后一次使用的项目..."
-			Save:
+			"Save":
 				value: "保存"
 			"Save As...":
 				value: "另存为..."
@@ -58,28 +58,28 @@ Menu:
 	Edit:
 		value: "编辑"
 		submenu:
-			Undo:
+			"Undo":
 				value: "撤销"
-			Redo:
+			"Redo":
 				value: "重复"
-			Cut:
+			"Cut":
 				value: "剪切"
-			Copy:
+			"Copy":
 				value: "复制"
 			"Copy Path":
 				value: "复制路径"
-			Paste:
+			"Paste":
 				value: "粘贴"
 			"Select All":
 				value: "全选"
 			"Toggle Comments":
 				value: "切换注释"
-			Lines:
+			"Lines":
 				value: "行"
 				submenu:
-					Indent:
+					"Indent":
 						value: "添加缩进"
-					Outdent:
+					"Outdent":
 						value: "减少缩进"
 					"Auto Indent":
 						value: "自动缩进"
@@ -93,7 +93,7 @@ Menu:
 						value: "删除行"
 					"Join Lines":
 						value: "合并行"
-			Text:
+			"Text":
 				value: "文本"
 				submenu:
 					"Upper Case":
@@ -108,14 +108,14 @@ Menu:
 						value: "删除单词到下一个边界"
 					"Delete Line":
 						value: "删除行"
-					Transpose:
+					"Transpose":
 						value: "前后交换"
-			Folding:
+			"Folding":
 				value: "折叠"
 				submenu:
-					Fold:
+					"Fold":
 						value: "折叠"
-					Unfold:
+					"Unfold":
 						value: "展开"
 					"Unfold All":
 						value: "展开所有"
@@ -141,7 +141,7 @@ Menu:
 						value: "展开九层"
 			"Reflow Selection":
 				value: "折叠选中"
-			Bookmark:
+			"Bookmark":
 				value: "书签"
 				submenu:
 					"View All":
@@ -223,11 +223,11 @@ Menu:
 	View:
 		value: "查看"
 		submenu:
-			Reload:
+			"Reload":
 				value: "重新加载"
 			"Toggle Full Screen":
 				value: "全屏切换"
-			Panes:
+			"Panes":
 				value: "窗格"
 				submenu:
 					"Split Up":
@@ -280,9 +280,9 @@ Menu:
 	Window:
 		value: "窗口"
 		submenu:
-			Minimize:
+			"Minimize":
 				value: "最小化"
-			Zoom:
+			"Zoom":
 				value: "最大化"
 			"Bring All to Front":
 				value: "移动到最前面"
@@ -291,9 +291,9 @@ Menu:
 		submenu:
 			"Terms of Use":
 			  value: "使用条款"
-			Documentation:
+			"Documentation":
 				value: "文档"
-			Roadmap:
+			"Roadmap":
 				value: "路线图"
 			"Frequently Asked Questions":
 				value: "经常问的问题"
