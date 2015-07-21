@@ -157,7 +157,7 @@ Menu:
 			"Go to Line":
 				value: "跳转到指定行"
 			"Select Grammar":
-				value: "语法选择"
+				value: "切换语法"
 	Selection:
 		value: "选择"
 		submenu:
@@ -256,7 +256,7 @@ Menu:
 				value: "开发"
 				submenu:
 					"Open In Dev Mode...":
-						value: "打开开发模式"
+						value: "启用开发模式"
 					"Run Atom Specs":
 						value: "运行Atom规范"
 					"Run Package Specs":
@@ -276,7 +276,7 @@ Menu:
 			"Toggle Tree View":
 				value: "切换目录树"
 	Packages:
-		value: "插件包"
+		value: "扩展"
 	Window:
 		value: "窗口"
 		submenu:
@@ -294,7 +294,7 @@ Menu:
 			"Documentation":
 				value: "文档"
 			"Roadmap":
-				value: "路线图"
+				value: "产品路线图"
 			"Frequently Asked Questions":
 				value: "经常问的问题"
 			"Community Discussions":
@@ -306,4 +306,4 @@ Menu:
 			"Release Notes":
 				value: "发行说明"
 			"Welcome Guide":
-				value: "欢迎指南"
+				value: "起始页"

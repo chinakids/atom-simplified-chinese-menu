@@ -142,7 +142,7 @@ Menu:
 			"Go to Line":
 				value: "跳转到指定行"
 			"Select Grammar":
-				value: "语法选择"
+				value: "切换语法"
 	"&View":
 		value: "查看(&V)"
 		submenu:
@@ -181,7 +181,7 @@ Menu:
 				value: "开发"
 				submenu:
 					"Open In &Dev Mode...":
-						value: "打开开发模式(&D)"
+						value: "启用开发模式(&D)"
 					"Run &Atom Specs":
 						value: "运行Atom规范(&A)"
 					"Run Package &Specs":
@@ -263,7 +263,7 @@ Menu:
 			"Find Modified File":
 				value: "查找修改后的文件"
 	"&Packages":
-		value: "插件包(&P)"
+		value: "扩展(&P)"
 	"&Help":
 		value: "帮助(&H)"
 		submenu:
@@ -274,7 +274,7 @@ Menu:
 			"&Documentation":
 				value: "文档(&D)"
 			Roadmap:
-				value: "路线图"
+				value: "产品路线图"
 			"Frequently Asked Questions":
 				value: "经常问的问题"
 			"Community Discussions":
@@ -286,4 +286,4 @@ Menu:
 			"Release Notes":
 				value: "发行说明"
 			"Welcome Guide":
-				value: "欢迎指南"
+				value: "起始页"
