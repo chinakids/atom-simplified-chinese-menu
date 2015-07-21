@@ -7,6 +7,9 @@ Atom  的简体中文汉化语言包
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot2.png)
 
 ###更新说明
+- v3.1.0  (2015-07-21)
+
+	优化部分翻译，本地化翻译内容
 
 - v3.0.8  (2015-07-10)
 
