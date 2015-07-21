@@ -50,7 +50,7 @@ Context:
     "pane:reopen-closed-item": "重新打开关闭项"
   ".tree-view.full-menu":
     "tree-view:add-file": "新建文件"
-    "tree-view:add-folder": "新建目录"
+    "tree-view:add-folder": "新建文件夹"
     "tree-view:move": "移动"
     "tree-view:duplicate": "复制并新建"
     "tree-view:remove": "删除"
@@ -72,7 +72,7 @@ Context:
     "tree-view:open-selected-entry-right": "窗格拆分 →"
   ".tree-view.full-menu .project-root > .header":
     "tree-view:add-file": "新建文件"
-    "tree-view:add-folder": "新建目录"
+    "tree-view:add-folder": "新建文件夹"
     "tree-view:move": "移动"
     "tree-view:duplicate": "复制并新建"
     "tree-view:remove": "删除"
