@@ -20,7 +20,7 @@ module.exports =
     for menu in menuList
       continue if not menu.label
       key = menu.label
-      if key.indexOf '…' != -1
+      if key.indexOf '…' not -1
         key = key.replace('…','...')
       set = def[key]
       continue if not set
