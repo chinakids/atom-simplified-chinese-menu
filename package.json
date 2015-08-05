@@ -1,7 +1,7 @@
 {
   "name": "chinese-menu",
   "main": "./lib/main",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Atom 的简体中文语言包，完整汉化，兼容所有已发布版本 Atom",
   "repository": "https://github.com/chinakids/atom-simplified-chinese-menu",
   "license": "MIT",
