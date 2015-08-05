@@ -42,7 +42,7 @@ Menu:
 			"Add Project Folder...":
 				value: "添加项目文件夹..."
 			"Reopen Last Item":
-				value: "打开最后一次使用的项目..."
+				value: "打开上一个关闭的文件..."
 			"Save":
 				value: "保存"
 			"Save As...":
@@ -226,7 +226,7 @@ Menu:
 			"Reload":
 				value: "重新加载"
 			"Toggle Full Screen":
-				value: "全屏切换"
+				value: "切换全屏"
 			"Panes":
 				value: "窗格"
 				submenu:
@@ -256,7 +256,7 @@ Menu:
 				value: "开发"
 				submenu:
 					"Open In Dev Mode...":
-						value: "启用开发模式"
+						value: "打开开发模式"
 					"Run Atom Specs":
 						value: "运行Atom规范"
 					"Run Package Specs":
