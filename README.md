@@ -7,6 +7,10 @@ Atom  的简体中文汉化语言包
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot2.png)
 
 ###更新说明
+- v3.1.6  (2015-08-06)
+
+	优化 mac 下部分翻译，另外做个统计，是否需要汉化第三方插件扩展的菜单？有需要的请到 [Issues](https://github.com/chinakids/atom-simplified-chinese-menu/issues) 告诉我~
+
 - v3.1.5  (2015-08-05)
 
 	优化部分翻译，代码完全 coffee 化，修复 bug
