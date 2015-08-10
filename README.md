@@ -27,9 +27,11 @@ Atom  的简体中文汉化语言包
 	目前版本兼容Atom 所有已发布版本，请放心使用，建议所有用户更新
 
 ###说明
-- 基于 syon 的 japanese-menu 的中文解决方案(完整汉化)。
+- 基于 syon 的 japanese-menu 的衍生的中文解决方案(完整汉化)。
 
 	[japanese-menu](https://atom.io/packages/japanese-menu)
+
+	Setting 部分并未汉化，第一考虑到部分朋友熟悉的 Setting的英文设置，第二考虑到官方并未给出完美的setting 翻译方案
 
 
 - 翻译参考
