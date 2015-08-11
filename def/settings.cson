@@ -1,0 +1,177 @@
+Settings:
+  menu: [
+    {
+      label: "Settings"
+      value: "设置"
+    }
+    {
+      label: "Keybindings"
+      value: "快捷键绑定"
+    }
+    {
+      label: "Packages"
+      value: "扩展"
+    }
+    {
+      label: "Themes"
+      value: "主题"
+    }
+    {
+      label: "Updates"
+      value: "更新"
+    }
+    {
+      label: "Install"
+      value: "安装"
+    }
+  ]
+  sectionHeadings: [
+    {label: "Core Settings", value: "核心设置"}
+    {label: "Editor Settings", value: "编辑器设置"}
+    {label: "Keybindings", value: "按键绑定"}
+    {label: "Installed Packages", value: "已安装扩展"}
+    {label: "Choose a Theme", value: "选择主题"}
+    {label: "Installed Themes", value: "已安装主题"}
+    {label: "Install Packages", value: "安装扩展"}
+    {label: "Featured Packages", value: "推荐拓展"}
+    {label: "Install Themes", value: "安装主题"}
+    {label: "Featured Themes", value: "推荐主题"}
+  ]
+  subSectionHeadings: [
+    {label: "Community Packages", value: "社区扩展"}
+    {label: "Community Themes", value: "社区主题"}
+    {label: "Core Themes", value: "核心主题"}
+    {label: "Development Themes", value: "开发主题"}
+  ]
+  settings: [
+    {
+      id: 'core.audioBeep'
+      title: "提示音"
+    }
+    {
+      id: 'core.autoHideMenuBar'
+      title: "自动隐藏菜单栏"
+      desc: "你可以使用Alt键切换菜单栏隐藏，该设置只支持Windows和Linux切换。"
+    }
+    {
+      id: 'core.destroyEmptyPanes'
+      title: "自动关闭空窗格"
+    }
+    {
+      id: 'core.excludeVcsIgnoredPaths'
+      title: "不要加载`.gitignore`指定的文件"
+    }
+    {
+      id: 'core.fileEncoding'
+      title: "文件编码"
+      desc: "指定默认字符集用于读取和写入文件。"
+    }
+    # {
+    #   id: 'core.followSymlinks'
+    #   title: ""
+    #   desc: ""
+    # }
+    {
+      id: 'core.ignoredNames'
+      title: "忽略的文件"
+    }
+    {
+      id: 'core.projectHome'
+      title: "默认项目目录"
+    }
+    {
+      id: 'editor.autoIndent'
+      title: "自动缩进"
+      desc: "插入新行（换行）时将光标移动到自动缩进的位置。"
+    }
+    {
+      id: 'editor.autoIndentOnPaste'
+      title: "粘贴的时候自动缩进"
+    }
+    {
+      id: 'editor.confirmCheckoutHeadRevision'
+      title: "提示当您返回到HEAD版本是否放弃更改"
+    }
+    {
+      id: 'editor.fontFamily'
+      title: "字体"
+      desc: "字体设置。"
+    }
+    {
+      id: 'editor.fontSize'
+      title: "字体大小"
+      desc: "字体大小 (px)"
+    }
+    {
+      id: 'editor.lineHeight'
+      title: "行高"
+      desc: "行高 (number)"
+    }
+    {
+      id: 'editor.nonWordCharacters'
+      title: "它不会被视为字字符的一部分"
+    }
+    {
+      id: 'editor.preferredLineLength'
+      title: "一行的长度"
+    }
+    {
+      id: 'editor.scrollPastEnd'
+      title: "滚动到最后的一行"
+    }
+    {
+      id: 'editor.scrollSensitivity'
+      title: "滚动速度"
+    }
+    {
+      id: 'editor.showIndentGuide'
+      title: "显示缩进指示线"
+    }
+    {
+      id: 'editor.showInvisibles'
+      title: "显示不可见字符"
+      desc: "他会显示一个不可见字符。"
+    }
+    {
+      id: 'editor.showLineNumbers'
+      title: "显示行数"
+    }
+    {
+      id: 'editor.softWrap'
+      title: "自动换行"
+      desc: "开启或关闭编辑器中的软换行"
+    }
+    # {
+    #   id: 'editor.softTabs'
+    #   title: ""
+    #   desc: ""
+    # }
+    {
+      id: 'editor.softWrapAtPreferredLineLength'
+      title: "在换行指示线处自动换行"
+      desc: "在`一行的长度`到达设置长度后自动换行。"
+    }
+    # {
+    #   id: 'editor.softWrapHangingIndent'
+    #   title: ""
+    # }
+    {
+      id: 'editor.tabLength'
+      title: "tab的长度"
+    }
+    {
+      id: 'editor.undoGroupingInterval'
+      title: "撤消操作单元"
+      desc: "操作间隔时间为一个单元，决定每次撤销操作的撤销识别（毫秒）"
+    }
+    # {
+    #   id: 'editor.useShadowDOM'
+    #   title: ""
+    #   desc: ""
+    # }
+    # {
+    #   id: 'editor.zoomFontWhenCtrlScrolling'
+    #   title: ""
+    #   desc: "/"
+    # }
+  ]
