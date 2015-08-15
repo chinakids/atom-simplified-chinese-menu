@@ -9,7 +9,7 @@ Atom  的简体中文汉化语言包
 ###更新说明
 - v3.1.6  (2015-08-06)
 
-	优化 mac 下部分翻译，另外做个统计，是否需要汉化第三方插件扩展的菜单？有需要的请到 [Issues](https://github.com/chinakids/atom-simplified-chinese-menu/issues) 告诉我~
+	优化 mac 下部分翻译，另外做个统计，是否需要汉化第三方插件扩展的菜单 or Setting菜单？有需要的请到 [Issues](https://github.com/chinakids/atom-simplified-chinese-menu/issues) 告诉我~
 
 - v3.1.5  (2015-08-05)
 
@@ -31,12 +31,15 @@ Atom  的简体中文汉化语言包
 
 	[japanese-menu](https://atom.io/packages/japanese-menu)
 
-	Setting 部分并未汉化，第一考虑到部分朋友熟悉的 Setting的英文设置，第二考虑到官方并未给出完美的setting 翻译方案
+	Setting 部分并未汉化，第一考虑到部分朋友熟悉了 Setting的英文设置，第二考虑到官方并未给出完美的setting 设置接口
 
 
 - 翻译参考
 
 	sublime 的汉化方案
+	以及其他来自网络的资料
+
+###其他
 
 - 繁体中文(Sheng-Bo)：
 
