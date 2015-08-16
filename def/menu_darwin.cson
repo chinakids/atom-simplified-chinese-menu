@@ -30,6 +30,12 @@ Menu:
 				value: "退出Atom"
 			"Check for Update":
 				value: "检查更新"
+			"Restart and Install Update":
+				value: "重启并安装更新"
+			"Checking for Update":
+				value: "立即检查更新"
+			"Downloading Update":
+				value: "下载更新"
 	File:
 		value: "文件"
 		submenu:

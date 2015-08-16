@@ -33,7 +33,7 @@ Settings:
     {label: 'Choose a Theme', value: '选择主题'}
     {label: 'Installed Themes', value: '已安装主题'}
     {label: 'Install Packages', value: '安装扩展'}
-    {label: 'Featured Packages', value: '推荐拓展'}
+    {label: 'Featured Packages', value: '推荐扩展'}
     {label: 'Install Themes', value: '安装主题'}
     {label: 'Featured Themes', value: '推荐主题'}
   ]
@@ -82,15 +82,20 @@ Settings:
     {
       id: 'editor.autoIndent'
       title: '自动缩进'
-      desc: '插入新行（换行）时将光标移动到自动缩进的位置。'
+      desc: '插入新行（换行）时自动缩进光标。'
     }
     {
       id: 'editor.autoIndentOnPaste'
-      title: '粘贴的时候自动缩进'
+      title: '粘贴的时候自动缩进。'
     }
     {
       id: 'editor.confirmCheckoutHeadRevision'
-      title: '提示当您返回到HEAD版本是否放弃更改'
+      title: '提示当您返回到HEAD版本是否放弃更改。'
+    }
+    {
+      id:'editor.backUpBeforeSaving'
+      title:'自动备份'
+      desc:'制作一个暂时的备份来确保在程序发生错误时文件内容不会丢失。'
     }
     {
       id: 'editor.fontFamily'
@@ -130,7 +135,7 @@ Settings:
     {
       id: 'editor.showInvisibles'
       title: '显示不可见字符'
-      desc: '他会显示一个不可见字符。'
+      desc: '显示一个不可见字符。'
     }
     {
       id: 'editor.showLineNumbers'
@@ -141,11 +146,11 @@ Settings:
       title: '自动换行'
       desc: '开启或关闭编辑器中的软换行'
     }
-    # {
-    #   id: 'editor.softTabs'
-    #   title: ''
-    #   desc: ''
-    # }
+    {
+      id: 'editor.softTabs'
+      title: '软标签'
+      desc: ''
+    }
     {
       id: 'editor.softWrapAtPreferredLineLength'
       title: '在换行指示线处自动换行'
@@ -163,16 +168,16 @@ Settings:
     {
       id: 'editor.undoGroupingInterval'
       title: '撤消操作单元'
-      desc: '操作间隔时间为一个单元，决定每次撤销操作的撤销识别（毫秒）'
+      desc: '操作间隔时间为一个单元，决定每次撤销操作的撤销识别（毫秒）。'
     }
     {
       id: 'editor.useShadowDOM'
       title: '使用 Shadow DOM'
       desc: '如果您遇到包或主题的问题需要禁用。可以提交问题到相应的包或主题，因为此选项会最终会消失。'
     }
-    # {
-    #   id: 'editor.zoomFontWhenCtrlScrolling'
-    #   title: ''
-    #   desc: '/'
-    # }
+    {
+      id: 'editor.zoomFontWhenCtrlScrolling'
+      title: 'Ctrl + 滚动调节字体大小'
+      desc: '当按住Ctrl并上下滚动鼠标滚轮时增加或减小字体。'
+    }
   ]
