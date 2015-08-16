@@ -26,7 +26,7 @@ applyToPanel = (e) ->
     info.querySelector('span').textContent = "您也可以在"
     info.querySelector('a.link').textContent = " 用户样式设置 "
     span = document.createElement('span')
-    span.textContent = "中扩展 Atom 的样式"
+    span.textContent = "中扩展 Atom 的样式。"
     # console.log info
     info.appendChild(span)
     tp1 = sv.querySelector('.themes-picker>div:nth-child(1)')
