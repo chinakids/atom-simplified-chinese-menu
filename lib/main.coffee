@@ -1,7 +1,6 @@
 class ChineseSetting
 
   constructor: ->
-    console.log '执行 constructor'
     CSON = require 'cson'
     #菜单
     @M = CSON.load __dirname + '/../def/menu_'+process.platform+'.cson'
@@ -10,11 +9,9 @@ class ChineseSetting
 
 
   activate: (state) ->
-    console.log '执行 activate'
     setTimeout(@delay,0)
 
   delay: () =>
-    console.log '执行 delay'
     # Menu
     @updateMenu(atom.menu.template, @M.Menu)
     atom.menu.update()
@@ -33,7 +30,6 @@ class ChineseSetting
       @updateSettings(true)
 
   updateMenu : (menuList, def) ->
-    console.log '执行 updateMenu'
     return if not def
     for menu in menuList
       continue if not menu.label
@@ -57,11 +53,9 @@ class ChineseSetting
         item.label = label if label?
 
   updateSettings: (onSettingsOpen = false) ->
-    console.log '执行updateSettings：'+onSettingsOpen
     setTimeout(@delaySettings, 0, onSettingsOpen)
 
   delaySettings: (onSettingsOpen) ->
-    console.log '执行delaySettings'
     settings = require './../tools/settings'
     settings.init()
 
