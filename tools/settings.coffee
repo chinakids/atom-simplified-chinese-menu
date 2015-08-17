@@ -131,25 +131,24 @@ applyTextWithOrg = (elem, text) ->
   elem.setAttribute('data-localized', 'true')
 
 
-settings =
+Settings =
   init : () ->
     settingsTab = document.querySelector('.tab-bar [data-type="SettingsView"]')
     settingsEnabled = settingsTab.className.includes 'active' if settingsTab
     return unless settingsTab && settingsEnabled
     try
-      console.log 'try'
       # Tab title
-      settingsTab.querySelector('.title').textContent = "设置"
+      # settingsTab.querySelector('.title').textContent = "设置"
 
       sv = document.querySelector('.settings-view')
 
       # Font
-      if process.platform == 'win32'
-        font = atom.config.get('editor.fontFamily')
-        if font
-          sv.style["fontFamily"] = font
-        else
-          sv.style["fontFamily"] = "'Segoe UI', Meiryo"
+      # if process.platform == 'win32'
+      #   font = atom.config.get('editor.fontFamily')
+      #   if font
+      #     sv.style["fontFamily"] = font
+      #   else
+      #     sv.style["fontFamily"] = "'Segoe UI', Meiryo"
 
       # Load all settings panels
       lastMenu = sv.querySelector('.panels-menu .active a')
@@ -182,4 +181,4 @@ settings =
     catch e
       console.error "软件汉化失败。", e
 
-module.exports = settings
+module.exports = Settings

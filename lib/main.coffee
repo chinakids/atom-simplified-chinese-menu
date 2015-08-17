@@ -22,12 +22,10 @@ class ChineseSetting
     #console.log @S
     # Settings (on init and open)
     @updateSettings()
-    #快捷键打开 setting 时
-    atom.commands.add 'atom-workspace', 'settings-view:open', =>
-      @updateSettings(true)
-
-    atom.workspace.onDidOpen  =>
-      @updateSettings(true)
+    #重载后切换过来时
+    atom.workspace.onDidChangeActivePaneItem (item) =>
+      if item.uri is 'atom://config'
+        @updateSettings(true)
 
   updateMenu : (menuList, def) ->
     return if not def
