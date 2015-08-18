@@ -59,7 +59,7 @@ Settings:
     }
     {
       id: 'core.excludeVcsIgnoredPaths'
-      title: '不要加载`.gitignore`指定的文件'
+      title: '不加载`.gitignore`指定的文件'
     }
     {
       id: 'core.fileEncoding'

@@ -1,9 +1,12 @@
 {
   "name": "simplified-chinese-menu",
   "main": "./lib/main",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Atom 的简体中文语言包，完整汉化，兼容所有已发布版本 Atom",
-  "repository": "https://github.com/chinakids/atom-simplified-chinese-menu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinakids/atom-simplified-chinese-menu"
+  },
   "license": "MIT",
   "keywords": [
     "language",
@@ -18,5 +21,194 @@
   },
   "dependencies": {
     "cson": "3.0.1"
+  },
+  "readme": "# Atom - Chinese(Simplified) Menu\n\nAtom  的简体中文汉化语言包\n\n![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot.png)\n\n![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot2.png)\n\n![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot3.png)\n\n###更新说明\n\n- v3.2.0  (2015-08-17)\n\n\t1.增加了部分遗漏翻译\n\t\n\t2.增加了 Setting 部分的汉化,时间匆忙，可能有理解或者翻译错误的地方，请到 [Issues](https://github.com/chinakids/atom-simplified-chinese-menu/issues) 告诉我~十分感谢。部分理解模糊的地方没有翻译...等待测试后再翻译，本次翻译部分参考[微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx),以及感谢好基友岩岩的帮助\n\n\t\n\n- v3.1.6  (2015-08-06)\n\n\t优化 mac 下部分翻译，另外做个统计，是否需要汉化第三方插件扩展的菜单 or Setting菜单？有需要的请到 [Issues](https://github.com/chinakids/atom-simplified-chinese-menu/issues) 告诉我~\n\n- v3.1.5  (2015-08-05)\n\n\t优化部分翻译，代码完全 coffee 化，修复 bug\n\n- v3.1.0  (2015-07-21)\n\n\t优化部分翻译，本地化翻译内容\n\n- v3.0.8  (2015-07-10)\n\n\t解决官方1.0.2升级造成的4处汉化失效(设置，打开，打开文件夹，另存为)\n\tbug 产生 因为官方 menu 中这几处的 label 值中`...`变为了`…`(查证后为官方正常改动，后期均为`…`)\n\t解决方案：在 main.coffee 中对`…` 确认，替换为`...`，从而兼容后期 atom 官方的更改`...` -> `…`\n\t目前版本兼容Atom 所有已发布版本，请放心使用，建议所有用户更新\n\n###说明\n- 基于 syon 的 japanese-menu 的衍生的中文解决方案(完整汉化)。\n\n\t[japanese-menu](https://atom.io/packages/japanese-menu)\n\n\tSetting 部分并未汉化，第一考虑到部分朋友熟悉了 Setting的英文设置，第二考虑到官方并未给出完美的setting 设置接口\n\n\n- 翻译参考\n\n\tsublime 的汉化方案\n\t以及其他来自网络的资料\n\n###其他\n\n- 繁体中文(Sheng-Bo)：\n\n\t[cht-menu](https://atom.io/packages/cht-menu)\n\n- 日文(syon)：\n\n\t[japanese-menu](https://atom.io/packages/japanese-menu)\n\n###平台测试\n\nlinux，mac，win 均通过测试\n\n\n###LICENSE\n[MIT](https://github.com/chinakids/atom-chinese-menu/raw/master/LICENSE.md)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/chinakids/atom-simplified-chinese-menu/issues"
+  },
+  "homepage": "https://github.com/chinakids/atom-simplified-chinese-menu",
+  "_id": "simplified-chinese-menu@3.2.0",
+  "_shasum": "5962612b41a90f545d6729d45f86a376c0f601f0",
+  "_resolved": "file:../d-115717-13995-5gg8j6/package.tgz",
+  "_from": "../d-115717-13995-5gg8j6/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "cson",
+        "version": "3.0.1",
+        "path": "node_modules/cson/out/lib/cson.js"
+      },
+      {
+        "name": "coffee-script",
+        "version": "1.9.3",
+        "path": "node_modules/cson/node_modules/coffee-script/lib/coffee-script/coffee-script.js"
+      },
+      {
+        "name": "cson-parser",
+        "version": "1.1.1",
+        "path": "node_modules/cson/node_modules/cson-parser/lib/cson-parser.js"
+      },
+      {
+        "name": "coffee-script",
+        "version": "1.9.0",
+        "path": "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/coffee-script.js"
+      },
+      {
+        "name": "extract-opts",
+        "version": "3.0.1",
+        "path": "node_modules/cson/node_modules/extract-opts/out/lib/extract-opts.js"
+      },
+      {
+        "name": "typechecker",
+        "version": "2.0.8",
+        "path": "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/out/lib/typechecker.js"
+      },
+      {
+        "name": "requirefresh",
+        "version": "2.0.0",
+        "path": "node_modules/cson/node_modules/requirefresh/out/lib/requirefresh.js"
+      },
+      {
+        "name": "safefs",
+        "version": "3.1.3",
+        "path": "node_modules/cson/node_modules/safefs/out/lib/safefs.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "3.0.8",
+        "path": "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/graceful-fs.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/main.coffee"
+      ],
+      ".js": [
+        "node_modules/cson/docs/assets/biscotto.js",
+        "node_modules/cson/docs/assets/search_data.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/browser.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/cake.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/coffee-script.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/command.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/grammar.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/helpers.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/index.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/lexer.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/nodes.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/optparse.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/parser.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/register.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/repl.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/rewriter.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/scope.js",
+        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/sourcemap.js",
+        "node_modules/cson/node_modules/coffee-script/register.js",
+        "node_modules/cson/node_modules/coffee-script/repl.js",
+        "node_modules/cson/node_modules/cson-parser/lib/cson-parser.js",
+        "node_modules/cson/node_modules/cson-parser/lib/parse.js",
+        "node_modules/cson/node_modules/cson-parser/lib/stringify.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/browser.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/cake.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/coffee-script.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/command.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/grammar.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/helpers.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/index.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/lexer.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/nodes.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/optparse.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/parser.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/register.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/repl.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/rewriter.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/scope.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/sourcemap.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/register.js",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/repl.js",
+        "node_modules/cson/node_modules/extract-opts/example.js",
+        "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/cyclic.js",
+        "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/out/lib/typechecker.js",
+        "node_modules/cson/node_modules/extract-opts/out/lib/extract-opts.js",
+        "node_modules/cson/node_modules/requirefresh/out/lib/requirefresh.js",
+        "node_modules/cson/node_modules/safefs/cyclic.js",
+        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/fs.js",
+        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/polyfills.js",
+        "node_modules/cson/node_modules/safefs/out/lib/safefs.js",
+        "node_modules/cson/out/bin/cson-cli.js",
+        "node_modules/cson/out/lib/cson.js"
+      ],
+      ".json": [
+        "node_modules/cson/node_modules/coffee-script/bower.json",
+        "node_modules/cson/node_modules/coffee-script/package.json",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/bower.json",
+        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/package.json",
+        "node_modules/cson/node_modules/cson-parser/package.json",
+        "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/package.json",
+        "node_modules/cson/node_modules/extract-opts/package.json",
+        "node_modules/cson/node_modules/requirefresh/package.json",
+        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/package.json",
+        "node_modules/cson/node_modules/safefs/package.json",
+        "node_modules/cson/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "def",
+          "lib",
+          "",
+          "tools"
+        ],
+        "dependencies": {
+          "cson": "3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cson/docs/assets",
+          "node_modules/cson/out/bin",
+          "node_modules/cson/out/lib",
+          "node_modules/cson"
+        ],
+        "dependencies": {
+          "coffee-script": "~1.9.0",
+          "cson-parser": "^1.0.6",
+          "extract-opts": "^3.0.1",
+          "requirefresh": "^2.0.0",
+          "safefs": "^3.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cson/node_modules/cson-parser/lib",
+          "node_modules/cson/node_modules/cson-parser"
+        ],
+        "dependencies": {
+          "coffee-script": "1.9.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cson/node_modules/extract-opts",
+          "node_modules/cson/node_modules/extract-opts/out/lib"
+        ],
+        "dependencies": {
+          "typechecker": "^2.0.8"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cson/node_modules/safefs",
+          "node_modules/cson/node_modules/safefs/out/lib"
+        ],
+        "dependencies": {
+          "graceful-fs": "^3.0.6"
+        }
+      }
+    ]
   }
 }

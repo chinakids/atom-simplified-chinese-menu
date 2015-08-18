@@ -9,6 +9,12 @@ Atom  的简体中文汉化语言包
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot3.png)
 
 ###更新说明
+- v3.2.1  (2015-08-18)
+	
+	1.优化翻译
+	
+	2.修复了关闭最后一个窗口出现错误的 bug
+	
 
 - v3.2.0  (2015-08-17)
 
