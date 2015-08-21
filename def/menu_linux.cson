@@ -29,7 +29,7 @@ Menu:
 			"Quit":
 				value: "退出"
 	"&Edit":
-		value: "編集(&E)"
+		value: "编辑(&E)"
 		submenu:
 			"&Undo":
 				value: "编辑(&U)"
