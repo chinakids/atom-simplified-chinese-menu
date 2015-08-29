@@ -76,6 +76,11 @@ Settings:
       title: '忽略的文件'
     }
     {
+      id: 'core.openEmptyEditorOnStart'
+      title: '启动时打开一个空编辑器'
+      desc: '在 Atom 启动时自动打开一个空编辑'
+    }
+    {
       id: 'core.projectHome'
       title: '默认项目目录'
     }
@@ -106,6 +111,22 @@ Settings:
       id: 'editor.fontSize'
       title: '字体大小'
       desc: '字体大小 (px)'
+    }
+    {
+      id:'editor.invisibles.cr'
+      title:'不可见的 Cr 显示为'
+    }
+    {
+      id:'editor.invisibles.eol'
+      title:'不可见的 Eol 显示为'
+    }
+    {
+      id:'editor.invisibles.space'
+      title:'不可见的 Space 显示为'
+    }
+    {
+      id:'editor.invisibles.tab'
+      title:'不可见的 Tab 显示为'
     }
     {
       id: 'editor.lineHeight'
