@@ -12,20 +12,25 @@ class ChineseSetting
     setTimeout(@delay,0)
 
   delay: () =>
-    # Menu
-    @updateMenu(atom.menu.template, @M.Menu)
-    atom.menu.update()
+    config = atom.config.get 'simplified-chinese-menu'
 
-    # ContextMenu
-    @updateContextMenu()
+    if config.useMenu
+      # Menu
+      @updateMenu(atom.menu.template, @M.Menu)
+      atom.menu.update()
 
-    #console.log @S
-    # Settings (on init and open)
-    @updateSettings()
-    #重载后切换过来时
-    atom.workspace.onDidChangeActivePaneItem (item) =>
-      if item isnt undefined and item.uri is 'atom://config'
-        @updateSettings(true)
+    if config.useContext
+      # ContextMenu
+      @updateContextMenu()
+
+    if config.useSetting
+      #console.log @S
+      # Settings (on init and open)
+      @updateSettings()
+      #重载后切换过来时
+      atom.workspace.onDidChangeActivePaneItem (item) =>
+        if item isnt undefined and item.uri is 'atom://config'
+          @updateSettings(true)
 
   updateMenu : (menuList, def) ->
     return if not def
@@ -56,5 +61,22 @@ class ChineseSetting
   delaySettings: (onSettingsOpen) ->
     settings = require './../tools/settings'
     settings.init()
+
+  config:
+    useMenu:
+      title: '汉化菜单'
+      description: '如果你不希望汉化`菜单`部分可以关闭此处,设置后可能需要重启 Atom。'
+      type: 'boolean'
+      default: true
+    useSetting:
+      title: '汉化设置'
+      description: '如果你不希望汉化`设置`部分可以关闭此处,设置后可能需要重启 Atom。'
+      type: 'boolean'
+      default: true
+    useContext:
+      title: '汉化右键菜单'
+      description: '如果你不希望汉化`右键菜单`部分可以关闭此处,设置后可能需要重启 Atom。'
+      type: 'boolean'
+      default: true
 
 module.exports = new ChineseSetting()
