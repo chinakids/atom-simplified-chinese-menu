@@ -165,13 +165,13 @@ Settings:
     {
       id: 'editor.softWrap'
       title: '自动换行'
-      desc: '开启或关闭编辑器中的软换行'
+      desc: '开启或关闭编辑器中的软换行。'
     }
-    {
-      id: 'editor.softTabs'
-      title: '软标签'
-      desc: ''
-    }
+    # {
+    #   id: 'editor.softTabs'
+    #   title: 'Soft Tabs'
+    #   desc: ''
+    # }
     {
       id: 'editor.softWrapAtPreferredLineLength'
       title: '在换行指示线处自动换行'
@@ -185,6 +185,11 @@ Settings:
     {
       id: 'editor.tabLength'
       title: 'tab的长度'
+    }
+    {
+      id: 'editor.tabType'
+      title: 'Tab 的类型'
+      desc: '按下 tab 键时插入编辑器的字符模式。'
     }
     {
       id: 'editor.undoGroupingInterval'
