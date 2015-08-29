@@ -1,6 +1,6 @@
 # Atom - Chinese(Simplified) Menu
 
-Atom  的简体中文汉化语言包
+Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉化、右键菜单汉化以及设置汉化
 
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot.png)
 
@@ -10,17 +10,22 @@ Atom  的简体中文汉化语言包
 
 
 ###说明
-- 基于 syon 的 japanese-menu 的衍生的中文解决方案(完整汉化)。
+- 基于 syon 的 japanese-menu 的衍生的独立中文解决方案(完整汉化)。
 
 	[japanese-menu](https://atom.io/packages/japanese-menu)
 
-	Setting 部分并未汉化，第一考虑到部分朋友熟悉了 Setting的英文设置，第二考虑到官方并未给出完美的setting 设置接口
+	Setting 部分并未完整汉化汉化，有翻译错误的地方欢迎指出
 
 
 - 翻译参考
 
+	[微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx)
 	sublime 的汉化方案
 	以及其他来自网络的资料
+
+- 更新记录
+
+	[更新记录(CHANGELOG)](https://github.com/chinakids/atom-chinese-menu/raw/master/CHANGELOG.md)
 
 ###其他
 
