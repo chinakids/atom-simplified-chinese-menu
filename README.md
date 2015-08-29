@@ -20,7 +20,9 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 - 翻译参考
 
 	[微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx)
+
 	sublime 的汉化方案
+
 	以及其他来自网络的资料
 
 - 更新记录
