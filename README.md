@@ -8,6 +8,7 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot3.png)
 
+![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot4.png)
 
 ###说明
 - 关于插件设置
