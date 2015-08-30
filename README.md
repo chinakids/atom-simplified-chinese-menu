@@ -17,29 +17,29 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
 - 基于 syon 的 japanese-menu 的衍生的独立中文解决方案(完整汉化)。
 
-	[japanese-menu](https://atom.io/packages/japanese-menu)
+  [japanese-menu](https://atom.io/packages/japanese-menu)
 
 - 翻译参考
 
-	[微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx)
+  [微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx)
 
-	sublime 的汉化方案
+  sublime 的汉化方案
 
-	以及其他来自网络的资料
+  以及其他来自网络的资料
 
 - 更新记录
 
-	[更新记录(CHANGELOG)](https://github.com/chinakids/atom-chinese-menu/raw/master/CHANGELOG.md)
+  [更新记录(CHANGELOG)](https://github.com/chinakids/atom-chinese-menu/raw/master/CHANGELOG.md)
 
 ###其他
 
 - 繁体中文(Sheng-Bo)：
 
-	[cht-menu](https://atom.io/packages/cht-menu)
+  [cht-menu](https://atom.io/packages/cht-menu)
 
 - 日文(syon)：
 
-	[japanese-menu](https://atom.io/packages/japanese-menu)
+  [japanese-menu](https://atom.io/packages/japanese-menu)
 
 ###平台测试
 
