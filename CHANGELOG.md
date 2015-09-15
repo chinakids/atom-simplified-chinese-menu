@@ -23,14 +23,11 @@
 
   2.修复了关闭最后一个窗口出现错误的 bug
 
-
 - v3.2.0  (2015-08-17)
 
   1.增加了部分遗漏翻译
 
   2.增加了 Setting 部分的汉化,时间匆忙，可能有理解或者翻译错误的地方，请到 [Issues](https://github.com/chinakids/atom-simplified-chinese-menu/issues) 告诉我~十分感谢。部分理解模糊的地方没有翻译...等待测试后再翻译，本次翻译部分参考[微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx),以及感谢好基友岩岩的帮助
-
-
 
 - v3.1.6  (2015-08-06)
 
