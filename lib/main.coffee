@@ -24,7 +24,6 @@ class ChineseSetting
       @updateContextMenu()
 
     if config.useSetting
-      #console.log @S
       # Settings (on init and open)
       @updateSettings()
       #重载后切换过来时
