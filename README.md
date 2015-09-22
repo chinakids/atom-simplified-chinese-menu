@@ -10,7 +10,7 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot4.png)
 
-###说明
+### 说明
 - 关于插件设置
 
   为了照顾部分朋友日常使用感受，增加了插件设置选项，可选`菜单`、`右键菜单`和`设置界面`是否应用汉化。
@@ -31,7 +31,7 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
   [更新记录(CHANGELOG)](https://github.com/chinakids/atom-chinese-menu/raw/master/CHANGELOG.md)
 
-###其他
+### 其他
 
 - 繁体中文(Sheng-Bo)：
 
@@ -41,10 +41,10 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
   [japanese-menu](https://atom.io/packages/japanese-menu)
 
-###平台测试
+### 平台测试
 
 linux，mac，win 均通过测试
 
 
-###LICENSE
+### LICENSE
 [MIT](https://github.com/chinakids/atom-chinese-menu/raw/master/LICENSE.md)
