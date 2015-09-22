@@ -28,9 +28,10 @@ class ChineseSetting
       @updateSettings()
       #重载后切换过来时
       atom.workspace.onDidChangeActivePaneItem (item) =>
-        if item.uri isnt undefined
-          if item.uri.indexOf('atom://config') isnt -1
-            @updateSettings(true)
+        if item isnt undefined
+          if item.uri isnt undefined
+            if item.uri.indexOf('atom://config') isnt -1
+              @updateSettings(true)
 
   updateMenu : (menuList, def) ->
     return if not def
