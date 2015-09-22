@@ -81,12 +81,12 @@ applySectionHeadings = (force) ->
   for sh in S.Settings.sectionHeadings
     el = getTextMatchElement(sv, '.section-heading', sh.label)
     continue unless el
-    if !isAlreadyLocalized(el) || force
+    if !isAlreadyLocalized(el) and force
       applyTextWithOrg(el, sh.value)
   for sh in S.Settings.subSectionHeadings
     el = getTextMatchElement(sv, '.sub-section-heading', sh.label)
     continue unless el
-    if !isAlreadyLocalized(el) || force
+    if !isAlreadyLocalized(el) and force
       applyTextWithOrg(el, sh.value)
 
 applyButtonToolbar = () ->
@@ -113,7 +113,7 @@ getTextMatchElement = (area, query, text) ->
 
 isAlreadyLocalized = (elem) ->
   localized = elem.getAttribute('data-localized') if elem
-  return localized == 'true'
+  return localized is 'true'
 
 applyTextContentBySettingsId = (data) ->
   el = document.querySelector("[id='#{data.id}']")
@@ -125,7 +125,7 @@ applyTextContentBySettingsId = (data) ->
 applyTextWithOrg = (elem, text) ->
   return unless text
   before = String(elem.textContent)
-  return if before == text
+  return if before is text
   elem.textContent = text
   elem.setAttribute('title', before)
   elem.setAttribute('data-localized', 'true')
@@ -143,12 +143,13 @@ Settings =
       sv = document.querySelector('.settings-view')
 
       # Font
-      # if process.platform == 'win32'
-      #   font = atom.config.get('editor.fontFamily')
-      #   if font
-      #     sv.style["fontFamily"] = font
-      #   else
-      #     sv.style["fontFamily"] = "'Segoe UI', Meiryo"
+      if process.platform is 'win32'
+        font = atom.config.get('editor.fontFamily')
+        if font
+          sv.style["fontFamily"] = font
+        else
+          sv.style["fontFamily"] = "'Segoe UI', Microsoft Yahei"
+          sv.style["fontSize"] = "12px"
 
       # Load all settings panels
       lastMenu = sv.querySelector('.panels-menu .active a')
