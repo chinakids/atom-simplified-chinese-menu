@@ -139,7 +139,6 @@ Settings =
     try
       # Tab title
       # settingsTab.querySelector('.title').textContent = "设置"
-
       sv = document.querySelector('.settings-view')
 
       # Font
