@@ -1,4 +1,4 @@
-# Atom - Chinese(Simplified) Menu
+# Atom - Chinese(Simplified) Menu | 喜欢的话请给个 Star 吧~
 
 Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉化、右键菜单汉化以及设置汉化
 
