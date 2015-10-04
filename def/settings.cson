@@ -114,19 +114,19 @@ Settings:
     }
     {
       id:'editor.invisibles.cr'
-      title:'不可见的 Cr 显示为'
+      title:'将不可见的 Cr 显示为'
     }
     {
       id:'editor.invisibles.eol'
-      title:'不可见的 Eol 显示为'
+      title:'将不可见的 Eol 显示为'
     }
     {
       id:'editor.invisibles.space'
-      title:'不可见的 Space 显示为'
+      title:'将不可见的 Space 显示为'
     }
     {
       id:'editor.invisibles.tab'
-      title:'不可见的 Tab 显示为'
+      title:'将不可见的 Tab 显示为'
     }
     {
       id: 'editor.lineHeight'
