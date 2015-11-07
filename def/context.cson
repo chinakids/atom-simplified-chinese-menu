@@ -51,7 +51,7 @@ Context:
   ".tree-view.full-menu":
     "tree-view:add-file": "新建文件"
     "tree-view:add-folder": "新建文件夹"
-    "tree-view:move": "移动"
+    "tree-view:move": "重命名或移动"
     "tree-view:duplicate": "复制并新建"
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"
@@ -73,7 +73,7 @@ Context:
   ".tree-view.full-menu .project-root > .header":
     "tree-view:add-file": "新建文件"
     "tree-view:add-folder": "新建文件夹"
-    "tree-view:move": "移动"
+    "tree-view:move": "重命名或移动"
     "tree-view:duplicate": "复制并新建"
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"
