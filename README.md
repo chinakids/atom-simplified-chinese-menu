@@ -2,13 +2,13 @@
 
 Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉化、右键菜单汉化以及设置汉化
 
-![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot.png)
+![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot.png)
 
-![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot2.png)
+![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot2.png)
 
-![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot3.png)
+![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot3.png)
 
-![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot4.png)
+![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot4.png)
 
 ### 说明
 - 关于插件设置
@@ -29,7 +29,7 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
 - 更新记录
 
-  [更新记录(CHANGELOG)](https://github.com/chinakids/atom-chinese-menu/raw/master/CHANGELOG.md)
+  [更新记录(CHANGELOG)](https://github.com/chinakids/atom-simplified-chinese-menu/blob/master/CHANGELOG.md)
 
 ### 其他
 
