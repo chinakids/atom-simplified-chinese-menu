@@ -8,14 +8,14 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot3.png)
 
-![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot4.png)
-
 ### 说明
 - 关于插件设置
 
   为了照顾部分朋友日常使用感受，增加了插件设置选项，可选`菜单`、`右键菜单`和`设置界面`是否应用汉化。
 
-- 基于 syon 的 japanese-menu 的衍生的独立中文解决方案(完整汉化)。
+  ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot4.png)
+
+- 初期版本基于 syon 的 japanese-menu 衍生，后期独立维护的中文解决方案(完整汉化)。
 
   [japanese-menu](https://atom.io/packages/japanese-menu)
 
