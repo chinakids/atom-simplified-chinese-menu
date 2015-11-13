@@ -47,6 +47,7 @@ Settings:
     {
       id: 'core.audioBeep'
       title: '提示音'
+      desc: '当操作无效或无结果显示时，提示音报错'
     }
     {
       id: 'core.autoHideMenuBar'
@@ -114,19 +115,19 @@ Settings:
     }
     {
       id:'editor.invisibles.cr'
-      title:'将不可见的 Cr 显示为'
+      title:'不可见的 Cr 显示为'
     }
     {
       id:'editor.invisibles.eol'
-      title:'将不可见的 Eol 显示为'
+      title:'不可见的 Eol 显示为'
     }
     {
       id:'editor.invisibles.space'
-      title:'将不可见的 Space 显示为'
+      title:'不可见的 Space 显示为'
     }
     {
       id:'editor.invisibles.tab'
-      title:'将不可见的 Tab 显示为'
+      title:'不可见的 Tab 显示为'
     }
     {
       id: 'editor.lineHeight'
