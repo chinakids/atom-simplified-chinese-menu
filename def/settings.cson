@@ -62,6 +62,7 @@ Settings:
     {
       id: 'core.excludeVcsIgnoredPaths'
       title: '不加载`.gitignore`指定的文件'
+      desc: '被当前VCS系统忽略的文件和目录也会被某些安装包忽略，如模糊查询、查询和替换。例如，使用Git的项目将忽略.gitigore文档中的路径。个别的包可能有额外用于设置控制忽略文档和忽略文件夹的VCS.'
     }
     {
       id: 'core.fileEncoding'
