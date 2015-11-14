@@ -57,6 +57,7 @@ Settings:
     {
       id: 'core.destroyEmptyPanes'
       title: '自动关闭空窗格'
+      desc:'当窗格中的最后一个文件被移除后，该窗格也将被关闭。'
     }
     {
       id: 'core.excludeVcsIgnoredPaths'
