@@ -47,7 +47,7 @@ Settings:
     {
       id: 'core.audioBeep'
       title: '提示音'
-      desc: '当操作无效或无结果显示时，提示音报错'
+      desc: '当操作无效或无结果显示时，提示音报错。'
     }
     {
       id: 'core.autoHideMenuBar'
@@ -77,6 +77,7 @@ Settings:
     {
       id: 'core.ignoredNames'
       title: '忽略的文件'
+      desc: '字符串集范例列表。匹配这些列表的目录或文档将会被一些包忽略，如模糊查询和树状视图。个别包对于忽略名称可能有额外设置。'
     }
     {
       id: 'core.openEmptyEditorOnStart'
