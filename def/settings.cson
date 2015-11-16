@@ -96,11 +96,13 @@ Settings:
     }
     {
       id: 'editor.autoIndentOnPaste'
-      title: '粘贴的时候自动缩进。'
+      title: '粘贴的时候自动缩进'
+      desc: '根据前一行的缩进自动缩进粘贴的文本。'
     }
     {
       id: 'editor.confirmCheckoutHeadRevision'
-      title: '提示当您返回到HEAD版本是否放弃更改。'
+      title: '提示您是否放弃HEAD修改'
+      desc: '放弃当前文件HEAD修改时，弹窗提示。'
     }
     {
       id:'editor.backUpBeforeSaving'
