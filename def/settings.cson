@@ -87,6 +87,7 @@ Settings:
     {
       id: 'core.projectHome'
       title: '默认项目目录'
+      desc: '项目默认位置，包创建器所创建的包将会默认存储在该地址。'
     }
     {
       id: 'editor.autoIndent'
