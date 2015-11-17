@@ -122,7 +122,7 @@ Settings:
     {
       id:'editor.invisibles.cr'
       title:'不可见的 Cr 显示为'
-      desc:'当 <code>显示不可见字符</code> 的设置激活后， 回车键可以用字符显示。（对于微软风格的断行符）'
+      desc:'当 <code>显示不可见字符</code> 的设置激活后， 回车键可以用以下字符显示。'
     }
     {
       id:'editor.invisibles.eol'
