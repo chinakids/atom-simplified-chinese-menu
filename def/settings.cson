@@ -132,10 +132,12 @@ Settings:
     {
       id:'editor.invisibles.space'
       title:'不可见的 Space 显示为'
+      desc:'当 <code>显示不可见字符</code> 的设置激活后， 空格可以用以下字符显示。'
     }
     {
       id:'editor.invisibles.tab'
       title:'不可见的 Tab 显示为'
+      desc:'当 <code>显示不可见字符</code> 的设置激活后， Tab(\\t) 可以用以下字符显示。'
     }
     {
       id: 'editor.lineHeight'
