@@ -120,13 +120,21 @@ applyTextContentBySettingsId = (data) ->
   return unless el
   ctrl = el.closest('.control-group')
   applyTextWithOrg(ctrl.querySelector('.setting-title'), data.title)
-  applyTextWithOrg(ctrl.querySelector('.setting-description'), data.desc)
+  applyHtmlWithOrg(ctrl.querySelector('.setting-description'), data.desc)
 
 applyTextWithOrg = (elem, text) ->
   return unless text
   before = String(elem.textContent)
   return if before is text
   elem.textContent = text
+  elem.setAttribute('title', before)
+  elem.setAttribute('data-localized', 'true')
+
+applyHtmlWithOrg = (elem, text) ->
+  return unless text
+  before = String(elem.textContent)
+  return if before is text
+  elem.innerHTML = text
   elem.setAttribute('title', before)
   elem.setAttribute('data-localized', 'true')
 
