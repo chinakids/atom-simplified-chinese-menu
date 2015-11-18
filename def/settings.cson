@@ -146,7 +146,8 @@ Settings:
     }
     {
       id: 'editor.nonWordCharacters'
-      title: '它不会被视为字字符的一部分'
+      title: '它不会被视为字符的一部分'
+      desc:'用于定义单词边界的非单词字符串。'
     }
     {
       id: 'editor.preferredLineLength'
@@ -155,10 +156,12 @@ Settings:
     {
       id: 'editor.scrollPastEnd'
       title: '滚动到最后的一行'
+      desc:'允许编辑器滚动到最后一行。'
     }
     {
       id: 'editor.scrollSensitivity'
       title: '滚动速度'
+      desc: '设置当使用鼠标或触摸板时滚动条的滚动速度。'
     }
     {
       id: 'editor.showIndentGuide'
