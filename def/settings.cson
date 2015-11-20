@@ -69,11 +69,11 @@ Settings:
       title: '文件编码'
       desc: '指定默认字符集用于读取和写入文件。'
     }
-    # {
-    #   id: 'core.followSymlinks'
-    #   title: ''
-    #   desc: ''
-    # }
+    {
+      id: 'core.followSymlinks'
+      title: 'Follow symlinks'
+      desc: '当查找或者在模糊查找中打开文件时遵循软链接(symbolic links)导向。'
+    }
     {
       id: 'core.ignoredNames'
       title: '忽略的文件'
