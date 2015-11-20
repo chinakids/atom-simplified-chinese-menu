@@ -152,6 +152,7 @@ Settings:
     {
       id: 'editor.preferredLineLength'
       title: '一行的长度'
+      desc: '当设置 <code>在换行指示线处自动换行</code>开启后，每行到换行指示器间的字符长度。'
     }
     {
       id: 'editor.scrollPastEnd'
@@ -181,7 +182,7 @@ Settings:
     {
       id: 'editor.softWrap'
       title: '自动换行'
-      desc: '开启或关闭编辑器中的软换行。'
+      desc: '开启或关闭编辑器中的自动换行。'
     }
     {
       id: 'editor.softTabs'
