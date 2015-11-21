@@ -10,7 +10,7 @@ applyToPanel = (e) ->
   sv = document.querySelector('.settings-view')
 
   sv.querySelector('#core-settings-note').innerHTML = "下述为Atom核心部分的设置，个别拓展包可能拥有额外独立设置，浏览拓展包设置请在 <a class='link packages-open'>拓展包列表</a> 中选择对应名称拓展的设置。"
-  sv.querySelector('#editer-settings-note').innerHTML = "下述为Atom文本编辑器部分的设置，其中一些设置将会基于每个语言覆盖，检查语言设置请在 <a class='link packages-open'>拓展包列表</a> 中选择对应语言拓展的设置。"
+  sv.querySelector('#editor-settings-note').innerHTML = "下述为Atom文本编辑器部分的设置，其中一些设置将会基于每个语言覆盖，检查语言设置请在 <a class='link packages-open'>拓展包列表</a> 中选择对应语言拓展的设置。"
 
   # Keybindings
   info = sv.querySelector('.keybinding-panel>div:nth-child(2)')

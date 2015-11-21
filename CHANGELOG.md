@@ -1,4 +1,11 @@
 ###更新说明
+- v3.4.0 (2015-11-22)
+  1.修复几处显示错误，感谢 [@lamlars](https://github.com/lamlars) 提供,[#7](https://github.com/chinakids/atom-simplified-chinese-menu/issues/7),最近比较忙，也感谢基友小强同学的协助翻译。
+
+  2.新增Atom 1.0.9新增的 desc
+
+  3.官方右键菜单中的 move,翻译扩展为‘移动和重命名’,主要出于以下考虑，官方并没有 rename 的功能，而移动恰好也能提供类似 rename 的效果，为了解决某些同学找不到重命名的尴尬。
+
 - v3.3.5 (2015-09-22)
 
   1.修复在 win 平台下的显示效果，感谢 [@qf.huang](https://github.com/qf.huang) 提供的反馈
