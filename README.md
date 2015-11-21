@@ -9,6 +9,17 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot3.png)
 
 ### 说明
+
+```
+  作者在翻译过程中并没有完全照翻官方原文内容，在保证官方原意的基础上尽可能的贴近使用口语与理解，如果有翻译错误或容易产生歧义的地方欢迎来 Github 的 Issues 指出来~
+
+  我们将共同学习共同进步~欢迎共同交流~
+
+  如果喜欢本插件，请在 Github 或者 Atom shop 给我给 star ~ 3Q~
+
+  By. chinakids
+```
+
 - 关于插件设置
 
   为了照顾部分朋友日常使用感受，增加了插件设置选项，可选`菜单`、`右键菜单`和`设置界面`是否应用汉化。
