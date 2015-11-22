@@ -1,5 +1,10 @@
 ###更新说明
+- v3.4.1 (2015-11-22)
+
+  1.优化几处标点符号的显示。
+
 - v3.4.0 (2015-11-22)
+
   1.修复几处显示错误，感谢 [@lamlars](https://github.com/lamlars) 提供,[#7](https://github.com/chinakids/atom-simplified-chinese-menu/issues/7),最近比较忙，也感谢基友小强同学的协助翻译。
 
   2.新增Atom 1.0.9新增的 desc
