@@ -154,12 +154,7 @@ Settings =
 
       # Font
       if process.platform is 'win32'
-        font = atom.config.get('editor.fontFamily')
-        if font
-          sv.style["fontFamily"] = font
-        else
-          sv.style["fontFamily"] = "'Segoe UI', Microsoft Yahei"
-          sv.style["fontSize"] = "12px"
+        sv.style["fontFamily"] = 'Segoe UI, Microsoft Yahei, sans-serif'
 
       # Load all settings panels
       lastMenu = sv.querySelector('.panels-menu .active a')
