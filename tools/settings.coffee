@@ -158,7 +158,7 @@ Settings =
         if font
           sv.style["fontFamily"] = font
         else
-          sv.style["fontFamily"] = "'Segoe UI', Microsoft Yahei"
+          sv.style["fontFamily"] = "'Segoe UI', Microsoft Yahei, sans-serif"
           sv.style["fontSize"] = "12px"
 
       # Load all settings panels
