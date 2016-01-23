@@ -50,6 +50,11 @@ Settings:
       desc: '当操作无效或无结果显示时，提示音报错。'
     }
     {
+      id: 'core.closeEmptyWindows'
+      title: '关闭空窗口'
+      desc: '当一个窗口不存在Tab页或者窗格的时候，将关闭该窗口。'
+    }
+    {
       id: 'core.autoHideMenuBar'
       title: '自动隐藏菜单栏'
       desc: '你可以使用Alt键切换菜单栏隐藏，该设置只支持Windows和Linux切换。'
