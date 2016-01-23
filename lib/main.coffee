@@ -28,11 +28,12 @@ class ChineseSetting
       @updateSettings()
       #重载后切换过来时
       atom.workspace.onDidChangeActivePaneItem (item) =>
-        settingsTab = document.querySelector('.tab-bar [data-type="SettingsView"]')
-        chineseStatus = settingsTab.getAttribute('inChinese')
-        if chineseStatus isnt 'true' and item and item.uri and item.uri.indexOf('atom://config') isnt -1
-          settingsTab.setAttribute('inChinese','true')
-          @updateSettings(true)
+        if item and item.uri and item.uri.indexOf('atom://config') isnt -1
+          settingsTab = document.querySelector('.tab-bar [data-type="SettingsView"]')
+          chineseStatus = settingsTab.getAttribute('inChinese')
+          if chineseStatus isnt 'true'
+            settingsTab.setAttribute('inChinese','true')
+            @updateSettings(true)
 
   updateMenu : (menuList, def) ->
     return if not def
