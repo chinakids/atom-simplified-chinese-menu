@@ -208,7 +208,7 @@ Settings:
     }
     {
       id: 'editor.tabLength'
-      title: 'tab的长度'
+      title: 'Tab 的长度'
       desc: '设置多少个空格长度用于表示 Tab。'
     }
     {
