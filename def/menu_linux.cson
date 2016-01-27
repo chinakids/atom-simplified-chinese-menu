@@ -26,6 +26,8 @@ Menu:
 				value: "关闭窗格(&P)"
 			"Clos&e Window":
 				value: "关闭窗口(&E)"
+			"Close All Tabs":
+ +				value: "关闭全部标签页"
 			"Quit":
 				value: "退出"
 	"&Edit":
