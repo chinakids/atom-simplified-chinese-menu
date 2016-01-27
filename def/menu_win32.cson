@@ -40,6 +40,8 @@ Menu:
 				value: "关闭窗口(&E)"
 			"E&xit":
 				value: "退出(&X)"
+			"Close All Tabs":
+				value: "关闭全部标签页"
 	"&Edit":
 		value: "编辑(&E)"
 		submenu:
@@ -285,5 +287,7 @@ Menu:
 				value: "搜索问题"
 			"Release Notes":
 				value: "发行说明"
+			"About Atom":
+				value: "关于 Atom"
 			"Welcome Guide":
 				value: "起始页"
