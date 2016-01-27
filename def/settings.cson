@@ -39,6 +39,8 @@ Settings:
   ]
   subSectionHeadings: [
     {label: 'Community Packages', value: '社区扩展'}
+    {label: 'Core Packages', value: '核心扩展'}
+    {label: 'Development Packages', value: '开发扩展'}
     {label: 'Community Themes', value: '社区主题'}
     {label: 'Core Themes', value: '核心主题'}
     {label: 'Development Themes', value: '开发主题'}
@@ -206,7 +208,7 @@ Settings:
     }
     {
       id: 'editor.tabLength'
-      title: 'tab的长度'
+      title: 'Tab 的长度'
       desc: '设置多少个空格长度用于表示 Tab。'
     }
     {
