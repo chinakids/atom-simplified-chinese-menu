@@ -44,7 +44,10 @@ class ChineseSetting
         key = key.replace('…','...')
       set = def[key]
       continue if not set
-      menu.label = set.value if set?
+      if key is 'VERSION'
+        menu.label = set.value+' '+atom.appVersion if set?
+      else
+        menu.label = set.value if set?
       if menu.submenu?
         @updateMenu(menu.submenu, set.submenu)
 
