@@ -23,9 +23,9 @@ Menu:
       "Hide Atom":
         value: "最小化Atom"
       "Hide Others":
-        value: "最小化其他窗口"
+        value: "隐藏其他"
       "Show All":
-        value: "显示全部窗口"
+        value: "显示全部"
       "Quit":
         value: "退出Atom"
       "Check for Update":
