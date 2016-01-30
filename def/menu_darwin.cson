@@ -62,7 +62,7 @@ Menu:
 			"Close Window":
 				value: "关闭窗口"
 			"Close All Tabs":
- +				value: "关闭全部标签页"
+				value: "关闭全部标签页"
 	Edit:
 		value: "编辑"
 		submenu:
