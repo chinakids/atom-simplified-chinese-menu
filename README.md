@@ -31,6 +31,7 @@ Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉�
   [japanese-menu](https://atom.io/packages/japanese-menu)
 
 - 翻译参考
+  [oxs本地化建议](https://developer.apple.com/cn/internationalization/)
 
   [微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx)
 
