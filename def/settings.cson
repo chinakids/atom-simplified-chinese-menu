@@ -1,8 +1,16 @@
 Settings:
   menu: [
     {
-      label: 'Settings'
-      value: '设置'
+      label: 'Core'
+      value: '核心设置'
+    }
+    {
+      label: 'Editor'
+      value: '编辑器设置'
+    }
+    {
+      label: 'System'
+      value: '系统设置'
     }
     {
       label: 'Keybindings'
@@ -28,6 +36,7 @@ Settings:
   sectionHeadings: [
     {label: 'Core Settings', value: '核心设置'}
     {label: 'Editor Settings', value: '编辑器设置'}
+    {label: 'System Settings', value: '系统设置'}
     {label: 'Keybindings', value: '按键绑定'}
     {label: 'Installed Packages', value: '已安装扩展'}
     {label: 'Choose a Theme', value: '选择主题'}
@@ -44,8 +53,14 @@ Settings:
     {label: 'Community Themes', value: '社区主题'}
     {label: 'Core Themes', value: '核心主题'}
     {label: 'Development Themes', value: '开发主题'}
+    {label: 'Invisibles', value: '不可见元素'}
   ]
   settings: [
+    {
+      id: 'core.allowPendingPaneItems'
+      title: '允许临时预览'
+      desc: '允许临时预览项目内容，比如在文件列表中单击一个文件'
+    }
     {
       id: 'core.audioBeep'
       title: '提示音'
@@ -60,6 +75,11 @@ Settings:
       id: 'core.autoHideMenuBar'
       title: '自动隐藏菜单栏'
       desc: '你可以使用Alt键切换菜单栏隐藏，该设置只支持Windows和Linux切换。'
+    }
+    {
+      id: 'core.automaticallyUpdate'
+      title: '自动升级'
+      desc: '新版本可用时自动升级Atom。'
     }
     {
       id: 'core.destroyEmptyPanes'
@@ -95,6 +115,29 @@ Settings:
       id: 'core.projectHome'
       title: '默认项目目录'
       desc: '项目默认位置，包创建器所创建的包将会默认存储在该地址。'
+    }
+    {
+      id: 'core.telemetryConsent'
+      title: '发送遥测给Atom团队'
+      desc: '允许发送使用统计数据和异常报告给Atom团队来帮助改善产品。'
+      selectOptions: {
+        'Allow limited anonymous usage stats, exception and crash reporting':
+          value: '允许发送有限的匿名使用统计、异常和崩溃报告'
+        'Do not send any telemetry data':
+          value: '不要发送任何遥测数据'
+        'Undecided (Atom will ask again next time it is launched)':
+          value: '未决定（Atom将在下次启动时再次询问）'
+      }
+    }
+    {
+      id: 'core.warnOnLargeFileLimit'
+      title: '大文件警告'
+      desc: '当打开超过设置大小(M)的文件时发出警告。'
+    }
+    {
+      id: 'editor.atomicSoftTabs'
+      title: ''
+      desc: '移动光标时跳过tab长度的前导空格'
     }
     {
       id: 'editor.autoIndent'
@@ -230,5 +273,20 @@ Settings:
       id: 'editor.zoomFontWhenCtrlScrolling'
       title: 'Ctrl + 滚动调节字体大小'
       desc: '当按住Ctrl并上下滚动鼠标滚轮时增加或减小字体。'
+    }
+    {
+      id: 'system.windows.file-handler'
+      title: '注册为文件处理程序'
+      desc: '在右键菜单“打开方式”的程序列表中显示Atom，便于快速打开文件'
+    }
+    {
+      id: 'system.windows.shell-menu-files'
+      title: '文件右键菜单'
+      desc: '在文件的右键菜单中显示“Open with Atom”'
+    }
+    {
+      id: 'system.windows.shell-menu-folders'
+      title: '文件夹右键菜单'
+      desc: '在文件夹的右键菜单中显示“Open with Atom”'
     }
   ]

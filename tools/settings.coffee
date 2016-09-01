@@ -12,6 +12,7 @@ applyToPanel = (e) ->
   sv.querySelector('#core-settings-note').innerHTML = "下述为Atom核心部分的设置，个别扩展包可能拥有额外独立设置，浏览扩展包设置请在 <a class='link packages-open'>扩展包列表</a> 中选择对应名称扩展的设置。"
   sv.querySelector('#editor-settings-note').innerHTML = "下述为Atom文本编辑器部分的设置，其中一些设置将会基于每个语言覆盖，检查语言设置请在 <a class='link packages-open'>扩展包列表</a> 中选择对应语言扩展的设置。"
 
+  sv.querySelector('[title="System Settings"]').closest('.panels-item').querySelector('.text').innerHTML = "这些设置可以将Atom集成到你的操作系统中。"
   # Keybindings
   info = sv.querySelector('.keybinding-panel>div:nth-child(2)')
   unless isAlreadyLocalized(info)
@@ -124,6 +125,11 @@ applyTextContentBySettingsId = (data) ->
   ctrl = el.closest('.control-group')
   applyTextWithOrg(ctrl.querySelector('.setting-title'), data.title)
   applyHtmlWithOrg(ctrl.querySelector('.setting-description'), data.desc)
+  if data.selectOptions
+    options = el.querySelectorAll('option')
+    for opt in options
+      before = String(opt.textContent)
+      applyTextWithOrg(opt, data.selectOptions[before].value)
 
 applyTextWithOrg = (elem, text) ->
   return unless text
