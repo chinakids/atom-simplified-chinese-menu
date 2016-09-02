@@ -68,6 +68,13 @@ Menu:
             value: "删除行(&E)"
           "&Join Lines":
             value: "合并行(&J)"
+      Columns:
+        value: "列"
+        submenu:
+          "Move Selection &Left":
+            value: "左移选择列"
+          "Move Selection &Right":
+            value: "右移选择列"
       Text:
         value: "文本"
         submenu:
@@ -116,16 +123,16 @@ Menu:
             value: "展开九层"
       "&Preferences":
         value: "设置(&P)..."
-      "Open Your Config":
-        value: "用户设置"
-      "Open Your Init Script":
-        value: "用户启动脚本"
-      "Open Your Keymap":
-        value: "用户键盘映射"
-      "Open Your Snippets":
-        value: "用户代码片段"
-      "Open Your Stylesheet":
-        value: "用户样式设置"
+      "Config...":
+        value: "用户设置..."
+      "Init Script...":
+        value: "用户启动脚本..."
+      "Keymap...":
+        value: "用户键盘映射..."
+      "Snippets...":
+        value: "用户代码片段..."
+      "Stylesheet...":
+        value: "用户样式设置..."
       "VERSION":
         value: "版本"
       "Reflow Selection":
@@ -186,6 +193,8 @@ Menu:
         submenu:
           "Open In &Dev Mode...":
             value: "打开开发模式(&D)"
+          "&Reload Window":
+            value: "重新加载窗口"
           "Run &Atom Specs":
             value: "运行Atom规范(&A)"
           "Run Package &Specs":
@@ -260,6 +269,8 @@ Menu:
         value: "替换下一个"
       "Replace All":
         value: "全部替换"
+      "Clear History":
+        value: "清除历史"
       "Find Buffer":
         value: "查找缓冲区"
       "Find File":
