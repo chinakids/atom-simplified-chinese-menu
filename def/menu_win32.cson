@@ -12,6 +12,11 @@ Menu:
         value: "打开文件夹..."
       "Add Project Folder...":
         value: "添加项目文件夹..."
+      "Reopen Project":
+        value: "重新打开项目"
+        submenu:
+          "Clear Project History":
+            value: "清除打开记录"
       "Reopen Last &Item":
         value: "打开上一个关闭的文件(&I)"
       "Se&ttings":
@@ -261,6 +266,8 @@ Menu:
         value: "切换项目"
       "Find Next":
         value: "下一个"
+      "Find All":
+        value: "查找所有"
       "Find Previous":
         value: "上一个"
       "Replace Next":
@@ -278,21 +285,126 @@ Menu:
   "&Packages":
     value: "扩展(&P)"
     submenu:
+      "Command Palette":
+        value: "命令面板"
+        submenu:
+          "Toggle":
+            value: "开关"
+      "Dev Live Reload":
+        value: "实时加载"
+        submenu:
+          "Reload All Styles":
+            value: "重新加载所有样式"
+      "Bracket Matcher":
+        value: "括号匹配"
+        submenu:
+          "Go To Matching Bracket":
+            value: "转到到匹配的括号"
+          "Select Inside Brackets":
+            value: "选中括号里面内容"
+          "Remove Brackets From Selection":
+            value: "删除选中的括号"
+          "Close Current Tag":
+            value: "关闭当前标签"
+          "Remove Matching Brackets":
+            value: "删除匹配的括号"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "跳到下个 Diff"
+          "Move to Previous Diff":
+            value: "跳转上个Diff"
+          "Toggle Diff List":
+            value: "打开关闭 Diff 列表"
+      "Tree View":
+        value: "侧边栏"
+        submenu:
+          "Focus":
+            value: "焦点"
+          "Toggle":
+            value: "开关"
+          "Reveal Active File":
+            value: "显示当前文件"
+          "Toggle Tree Side":
+            value: "打开侧边栏"
+      "Settings View":
+        value: "设置界面"
+        submenu:
+          "Open":
+            value: "打开"
+          "Show Keybindings":
+            value: "按键绑定"
+          "Install Packages/Themes":
+            value: "安装 插件/主题"
+          "Update Packages/Themes":
+            value: "更新 插件/主题"
+          "Manage Packages":
+            value: "管理插件"
+          "Manage Themes":
+            value: "管理主题"
+      "Package Generator":
+        value: "创建插件"
+        submenu:
+          "Generate Atom Package":
+            value: "创建Atom插件"
+          "Generate Atom Syntax Theme":
+            value: "创建Atom符号主题"
+      "Open On GitHub":
+        value: "在Github上打开"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "分支比较"
+          "Copy URL":
+            value: "复制地址"
+          "File":
+            value: "文件"
+          "File on Master":
+            value: "主分支上 文件"
+          "History":
+            value: "历史"
+          "Issue":
+            value: "问题"
+          "Repostory":
+            value: "代码库"
+      "Keybinding Resolver":
+        value: "按键绑定解析"
+        submenu:
+          "Toggle":
+            value: "开关"
       "Styleguide":
         value: "风格指导"
         submenu:
           "Show":
             value: "显示"
+      "Markdown Preview":
+        value: "Markdown预览"
+        submenu:
+          "Toggle Preview":
+            value: "显示"
       "Snippets":
         value: "代码片段"
         submenu:
           "Expand":
-            value: "展开"
+            value: "扩展"
+          "Next Stop":
+            value: "Next Stop"
+          "Preview Stop":
+            value: "Preview Stop"
+          "Available":
+            value: "可用代码块"
       "Spell Check":
         value: "拼写检查"
         submenu:
           "Toggle":
             value: "开关"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "查看"
       "Symbols":
         value: "符号"
         submenu:
@@ -323,6 +435,8 @@ Menu:
         value: "使用条款"
       "View &License":
         value: "查看许可"
+      "Check for Update":
+        value: "检查更新"
       "&Documentation":
         value: "文档(&D)"
       Roadmap:
