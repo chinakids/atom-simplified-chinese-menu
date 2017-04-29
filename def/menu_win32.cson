@@ -277,6 +277,45 @@ Menu:
         value: "查找修改后的文件"
   "&Packages":
     value: "扩展(&P)"
+    submenu:
+      "Styleguide":
+        value: "风格指导"
+        submenu:
+          "Show":
+            value: "显示"
+      "Snippets":
+        value: "代码片段"
+        submenu:
+          "Expand":
+            value: "展开"
+      "Spell Check":
+        value: "拼写检查"
+        submenu:
+          "Toggle":
+            value: "开关"
+      "Symbols":
+        value: "符号"
+        submenu:
+          "File Symbols":
+            value: "文件符号"
+          "Project Symbols":
+            value: "项目符号"
+      "Whitespace":
+        value: "空格"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "删除尾随空格"
+          "Save With Trailing Whitespace":
+            value: "保留尾随空格"
+          "Save Without Trailing Whitespace":
+            value: "保存不含尾随空格"
+          "Convert Tabs To Spaces":
+            value: "Tab 转换 空格"
+          "Convert Spaces To Tabs":
+            value: "空格 转换 Tab"
+          "Convert All Tabs To Spaces":
+            value: "所有Tab 转换成 空格"
+
   "&Help":
     value: "帮助(&H)"
     submenu:
