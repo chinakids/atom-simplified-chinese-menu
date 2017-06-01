@@ -1,6 +1,5 @@
-CSON = require 'cson'
 #设置
-S = CSON.load __dirname + '/../def/settings.cson'
+S = require __dirname + '/../def/settings.json'
 
 applyToPanel = (e) ->
   # Settings panel
@@ -12,7 +11,7 @@ applyToPanel = (e) ->
   sv.querySelector('#core-settings-note').innerHTML = "下述为Atom核心部分的设置，个别扩展包可能拥有额外独立设置，浏览扩展包设置请在 <a class='link packages-open'>扩展包列表</a> 中选择对应名称扩展的设置。"
   sv.querySelector('#editor-settings-note').innerHTML = "下述为Atom文本编辑器部分的设置，其中一些设置将会基于每个语言覆盖，检查语言设置请在 <a class='link packages-open'>扩展包列表</a> 中选择对应语言扩展的设置。"
 
-  sv.querySelector('[title="System Settings"]').closest('.panels-item').querySelector('.text').innerHTML = "这些设置可以将Atom集成到你的操作系统中。"
+  #sv.querySelector('[title="System Settings"]').closest('.panels-item').querySelector('.text').innerHTML = "这些设置可以将Atom集成到你的操作系统中。"
   # Keybindings
   info = sv.querySelector('.keybinding-panel>div:nth-child(2)')
   unless isAlreadyLocalized(info)
@@ -42,7 +41,7 @@ applyToPanel = (e) ->
     info.setAttribute('data-localized', 'true')
 
   # Updates panel
-  applySpecialHeading(sv, "Available Updates", 2, "可用更新")
+  applySpecialHeading(sv, "Available Updates", "可用更新")
   applyTextWithOrg(sv.querySelector('.update-all-button.btn-primary'), "全部更新")
   applyTextWithOrg(sv.querySelector('.update-all-button:not(.btn-primary)'), "检查更新")
   applyTextWithOrg(sv.querySelector('.alert.icon-hourglass'), "检查更新中...")
@@ -71,14 +70,14 @@ applyInstallPanelOnSwitch = () ->
   info = inst.querySelector('.native-key-bindings')
   info.querySelector('span:nth-child(2)').textContent = "扩展·主题 "
 
-applySpecialHeading = (area, org, childIdx, text) ->
+applySpecialHeading = (area, org, text) ->
   sh = getTextMatchElement(area, '.section-heading', org)
   return unless sh && !isAlreadyLocalized(sh)
-  sh.childNodes[childIdx].textContent = null
-  span = document.createElement('span')
-  span.textContent = org
-  applyTextWithOrg(span, text)
-  sh.appendChild(span)
+  sh.textContent = text
+  # span = document.createElement('span')
+  # span.textContent = org
+  # applyTextWithOrg(span, text)
+  # sh.appendChild(span)
 
 applySectionHeadings = (force) ->
   sv = document.querySelector('.settings-view')
@@ -153,49 +152,52 @@ Settings =
     settingsTab = document.querySelector('.tab-bar [data-type="SettingsView"]')
     settingsEnabled = settingsTab.className.includes 'active' if settingsTab
     return unless settingsTab && settingsEnabled
-    try
-      # Tab title
-      # settingsTab.querySelector('.title').textContent = "设置"
-      sv = document.querySelector('.settings-view')
+    #try
+    # Tab title
+    # settingsTab.querySelector('.title').textContent = "设置"
+    sv = document.querySelector('.settings-view')
 
-      # Font
-      if process.platform is 'win32'
-        font = atom.config.get('editor.fontFamily')
-        if font
-          sv.style["fontFamily"] = font
-        else
-          sv.style["fontFamily"] = "'Segoe UI', Microsoft Yahei, sans-serif"
-          sv.style["fontSize"] = "12px"
+    # Font
+    if process.platform is 'win32'
+      font = atom.config.get('editor.fontFamily')
+      if font
+        sv.style["fontFamily"] = font
+      else
+        sv.style["fontFamily"] = "'Segoe UI', Microsoft Yahei, sans-serif"
+        sv.style["fontSize"] = "12px"
 
-      # Load all settings panels
-      lastMenu = sv.querySelector('.panels-menu .active a')
-      panelMenus = sv.querySelectorAll('.settings-view .panels-menu li a')
-      for pm in panelMenus
-        pm.click()
-        pm.addEventListener('click', applyInstallPanelOnSwitch)
-      # Restore last active menu
-      lastMenu.click() if lastMenu
+    # Load all settings panels
+    lastMenu = sv.querySelector('.panels-menu .active a')
+    panelMenus = sv.querySelectorAll('.settings-view .panels-menu li a')
+    for pm in panelMenus
+      pm.click()
+      pm.addEventListener('click', applyInstallPanelOnSwitch)
+    # Restore last active menu
+    lastMenu.click() if lastMenu
 
-      # on Init
-      applyToPanel()
+    # on Init
+    applyToPanel()
 
-      # Left-side menu
-      menu = sv.querySelector('.settings-view .panels-menu')
-      return unless menu
-      for d in S.Settings.menu
-        el = menu.querySelector("[name='#{d.label}']>a")
-        applyTextWithOrg el, d.value
+    # Left-side menu
+    menu = sv.querySelector('.settings-view .panels-menu')
+    return unless menu
+    console.log 'x'
+    for d in S.Settings.menu
+      el = menu.querySelector("[name='#{d.label}']>a")
+      console.log el
+      console.log d.value
+      applyTextWithOrg el, d.value
 
-      # Left-side button
-      ext = sv.querySelector('.settings-view .icon-link-external')
-      applyTextWithOrg ext, "打开插件源码目录"
+    # Left-side button
+    ext = sv.querySelector('.settings-view .icon-link-external')
+    applyTextWithOrg ext, "打开插件源码目录"
 
-      # Add Events
-      btns = sv.querySelectorAll('div.section:not(.themes-panel) .search-container .btn')
-      for btn in btns
-        btn.addEventListener('click', applyInstallPanelOnSwitch)
+    # Add Events
+    btns = sv.querySelectorAll('div.section:not(.themes-panel) .search-container .btn')
+    for btn in btns
+      btn.addEventListener('click', applyInstallPanelOnSwitch)
 
-    catch e
-      console.error "软件汉化失败。", e
+    # catch e
+    #   console.error "软件汉化失败。", e
 
 module.exports = Settings

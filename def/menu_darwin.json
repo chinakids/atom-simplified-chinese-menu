@@ -1,0 +1,522 @@
+{
+  "Menu": {
+    "Atom": {
+      "value": "Atom",
+      "submenu": {
+        "About Atom": {
+          "value": "关于Atom"
+        },
+        "View License": {
+          "value": "查看许可"
+        },
+        "Preferences...": {
+          "value": "首选项..."
+        },
+        "Config...": {
+          "value": "用户设置..."
+        },
+        "Init Script...": {
+          "value": "用户启动脚本..."
+        },
+        "Keymap...": {
+          "value": "用户键盘映射..."
+        },
+        "Snippets...": {
+          "value": "用户代码片段..."
+        },
+        "Stylesheet...": {
+          "value": "用户样式设置..."
+        },
+        "Install Shell Commands": {
+          "value": "安装Shell命令"
+        },
+        "Hide Atom": {
+          "value": "最小化Atom"
+        },
+        "Hide Others": {
+          "value": "隐藏其他"
+        },
+        "Show All": {
+          "value": "显示全部"
+        },
+        "Quit": {
+          "value": "退出Atom"
+        },
+        "Check for Update": {
+          "value": "检查更新"
+        },
+        "Restart and Install Update": {
+          "value": "重启并安装更新"
+        },
+        "Checking for Update": {
+          "value": "立即检查更新"
+        },
+        "Downloading Update": {
+          "value": "下载更新"
+        },
+        "VERSION": {
+          "value": "版本"
+        },
+        "Services": {
+          "value": "服务"
+        }
+      }
+    },
+    "File": {
+      "value": "文件",
+      "submenu": {
+        "New Window": {
+          "value": "新建窗口"
+        },
+        "New File": {
+          "value": "新建文件"
+        },
+        "Open...": {
+          "value": "打开..."
+        },
+        "Add Project Folder...": {
+          "value": "添加项目文件夹..."
+        },
+        "Reopen Project": {
+          "value": "最近打开的文件/文件夹",
+          "submenu": {
+            "Clear Project History": {
+              "value": "清除打开记录"
+            }
+          }
+        },
+        "Reopen Last Item": {
+          "value": "打开上一个关闭的文件..."
+        },
+        "Save": {
+          "value": "保存"
+        },
+        "Save As...": {
+          "value": "另存为..."
+        },
+        "Save All": {
+          "value": "全部保存"
+        },
+        "Close Tab": {
+          "value": "关闭标签页"
+        },
+        "Close Pane": {
+          "value": "关闭窗格"
+        },
+        "Close Window": {
+          "value": "关闭窗口"
+        },
+        "Close All Tabs": {
+          "value": "关闭全部标签页"
+        }
+      }
+    },
+    "Edit": {
+      "value": "编辑",
+      "submenu": {
+        "Undo": {
+          "value": "撤销"
+        },
+        "Redo": {
+          "value": "重复"
+        },
+        "Cut": {
+          "value": "剪切"
+        },
+        "Copy": {
+          "value": "复制"
+        },
+        "Copy Path": {
+          "value": "复制路径"
+        },
+        "Paste": {
+          "value": "粘贴"
+        },
+        "Select All": {
+          "value": "全选"
+        },
+        "Toggle Comments": {
+          "value": "切换注释"
+        },
+        "Lines": {
+          "value": "行",
+          "submenu": {
+            "Indent": {
+              "value": "添加缩进"
+            },
+            "Outdent": {
+              "value": "减少缩进"
+            },
+            "Auto Indent": {
+              "value": "自动缩进"
+            },
+            "Move Line Up": {
+              "value": "向上移动行"
+            },
+            "Move Line Down": {
+              "value": "向下移动行"
+            },
+            "Duplicate Lines": {
+              "value": "复制行"
+            },
+            "Delete Line": {
+              "value": "删除行"
+            },
+            "Join Lines": {
+              "value": "合并行"
+            }
+          }
+        },
+        "Columns": {
+          "value": "列",
+          "submenu": {
+            "Move Selection Left": {
+              "value": "左移选择列"
+            },
+            "Move Selection Right": {
+              "value": "右移选择列"
+            }
+          }
+        },
+        "Text": {
+          "value": "文本",
+          "submenu": {
+            "Upper Case": {
+              "value": "转大写"
+            },
+            "Lower Case": {
+              "value": "转小写"
+            },
+            "Delete to End of Word": {
+              "value": "删除单词末尾"
+            },
+            "Delete to Previous Word Boundary": {
+              "value": "删除单词前部"
+            },
+            "Delete to Next Word Boundary": {
+              "value": "删除单词到下一个边界"
+            },
+            "Delete Line": {
+              "value": "删除行"
+            },
+            "Transpose": {
+              "value": "前后交换"
+            }
+          }
+        },
+        "Folding": {
+          "value": "折叠",
+          "submenu": {
+            "Fold": {
+              "value": "折叠"
+            },
+            "Unfold": {
+              "value": "展开"
+            },
+            "Unfold All": {
+              "value": "展开所有"
+            },
+            "Fold All": {
+              "value": "折叠所有"
+            },
+            "Fold Level 1": {
+              "value": "展开一层"
+            },
+            "Fold Level 2": {
+              "value": "展开两层"
+            },
+            "Fold Level 3": {
+              "value": "展开三层"
+            },
+            "Fold Level 4": {
+              "value": "展开四层"
+            },
+            "Fold Level 5": {
+              "value": "展开五层"
+            },
+            "Fold Level 6": {
+              "value": "展开六层"
+            },
+            "Fold Level 7": {
+              "value": "展开七层"
+            },
+            "Fold Level 8": {
+              "value": "展开八层"
+            },
+            "Fold Level 9": {
+              "value": "展开九层"
+            }
+          }
+        },
+        "Reflow Selection": {
+          "value": "折叠选中"
+        },
+        "Bookmark": {
+          "value": "书签",
+          "submenu": {
+            "View All": {
+              "value": "显示全部"
+            },
+            "Toggle Bookmark": {
+              "value": "切换书签"
+            },
+            "Jump to Next Bookmark": {
+              "value": "跳转到下一个书签"
+            },
+            "Jump to Previous Bookmark": {
+              "value": "跳转到上一个书签"
+            }
+          }
+        },
+        "Select Encoding": {
+          "value": "选择编码"
+        },
+        "Go to Line": {
+          "value": "跳转到指定行"
+        },
+        "Select Grammar": {
+          "value": "切换语法"
+        }
+      }
+    },
+    "Selection": {
+      "value": "选择",
+      "submenu": {
+        "Add Selection Above": {
+          "value": "扩大选择范围 ↑"
+        },
+        "Add Selection Below": {
+          "value": "减小选择范围 ↓"
+        },
+        "Single Selection": {
+          "value": "解除同时操作状态"
+        },
+        "Split into Lines": {
+          "value": "通过选择划分行"
+        },
+        "Select to Top": {
+          "value": "向上选择到文件头部"
+        },
+        "Select to Bottom": {
+          "value": "向下选择到文件尾部"
+        },
+        "Select Line": {
+          "value": "选择行"
+        },
+        "Select Word": {
+          "value": "选择单词"
+        },
+        "Select to Beginning of Word": {
+          "value": "选择到单词起始"
+        },
+        "Select to Beginning of Line": {
+          "value": "选择到行起始"
+        },
+        "Select to First Character of Line": {
+          "value": "选择到行起始的第一个字符"
+        },
+        "Select to End of Word": {
+          "value": "选择到单词尾部"
+        },
+        "Select to End of Line": {
+          "value": "选择到单词尾部"
+        },
+        "Select Inside Brackets": {
+          "value": "选择括号内内容"
+        }
+      }
+    },
+    "Find": {
+      "value": "查找",
+      "submenu": {
+        "Find in Buffer": {
+          "value": "查找..."
+        },
+        "Replace in Buffer": {
+          "value": "替换..."
+        },
+        "Select Next": {
+          "value": "选择下一个"
+        },
+        "Select All": {
+          "value": "全选"
+        },
+        "Toggle Find in Buffer": {
+          "value": "查找缓冲区"
+        },
+        "Find in Project": {
+          "value": "在项目内查找..."
+        },
+        "Toggle Find in Project": {
+          "value": "切换项目"
+        },
+        "Find All": {
+          "value": "查找所有"
+        },
+        "Find Next": {
+          "value": "下一个"
+        },
+        "Find Previous": {
+          "value": "上一个"
+        },
+        "Replace Next": {
+          "value": "替换下一个"
+        },
+        "Replace All": {
+          "value": "全部替换"
+        },
+        "Clear History": {
+          "value": "清除历史"
+        },
+        "Find Buffer": {
+          "value": "查找缓冲区"
+        },
+        "Find File": {
+          "value": "查找文件"
+        },
+        "Find Modified File": {
+          "value": "查找修改后的文件"
+        }
+      }
+    },
+    "View": {
+      "value": "查看",
+      "submenu": {
+        "Reload": {
+          "value": "重新加载"
+        },
+        "Toggle Full Screen": {
+          "value": "切换全屏"
+        },
+        "Panes": {
+          "value": "窗格",
+          "submenu": {
+            "Split Up": {
+              "value": "窗格拆分 ↑"
+            },
+            "Split Down": {
+              "value": "窗格拆分 ↓"
+            },
+            "Split Left": {
+              "value": "窗格拆分 ←"
+            },
+            "Split Right": {
+              "value": "窗格拆分 →"
+            },
+            "Focus Next Pane": {
+              "value": "焦点移到后一个窗格"
+            },
+            "Focus Previous Pane": {
+              "value": "焦点移到前一个窗格"
+            },
+            "Focus Pane Above": {
+              "value": "焦点移到上面的窗格 ↑"
+            },
+            "Focus Pane Below": {
+              "value": "焦点移到下面的窗格 ↓"
+            },
+            "Focus Pane On Left": {
+              "value": "焦点移到左面的窗格 ←"
+            },
+            "Focus Pane On Right": {
+              "value": "焦点移到右面的窗格 →"
+            },
+            "Close Pane": {
+              "value": "关闭窗格"
+            }
+          }
+        },
+        "Developer": {
+          "value": "开发",
+          "submenu": {
+            "Open In Dev Mode...": {
+              "value": "以开发者模式打开"
+            },
+            "Reload Window": {
+              "value": "重新加载窗口"
+            },
+            "Run Atom Specs": {
+              "value": "运行Atom规范"
+            },
+            "Run Package Specs": {
+              "value": "运行Package规范"
+            },
+            "Run Benchmarks": {
+              "value": "运行Benchmarks"
+            },
+            "Toggle Developer Tools": {
+              "value": "打开开发者工具"
+            }
+          }
+        },
+        "Increase Font Size": {
+          "value": "增大字体 ↑"
+        },
+        "Decrease Font Size": {
+          "value": "减小字体 ↓"
+        },
+        "Reset Font Size": {
+          "value": "重置字体"
+        },
+        "Toggle Soft Wrap": {
+          "value": "切换自动换行"
+        },
+        "Toggle Command Palette": {
+          "value": "切换命令面板"
+        },
+        "Toggle Tree View": {
+          "value": "切换目录树"
+        }
+      }
+    },
+    "Packages": {
+      "value": "扩展"
+    },
+    "Window": {
+      "value": "窗口",
+      "submenu": {
+        "Minimize": {
+          "value": "最小化"
+        },
+        "Zoom": {
+          "value": "最大化"
+        },
+        "Bring All to Front": {
+          "value": "移动到最前面"
+        }
+      }
+    },
+    "Help": {
+      "value": "帮助",
+      "submenu": {
+        "Terms of Use": {
+          "value": "使用条款"
+        },
+        "Documentation": {
+          "value": "文档"
+        },
+        "Roadmap": {
+          "value": "产品路线图"
+        },
+        "Frequently Asked Questions": {
+          "value": "经常问的问题"
+        },
+        "Community Discussions": {
+          "value": "讨论社区"
+        },
+        "Report Issue": {
+          "value": "报告问题"
+        },
+        "Search Issues": {
+          "value": "搜索问题"
+        },
+        "Release Notes": {
+          "value": "发行说明"
+        },
+        "Welcome Guide": {
+          "value": "起始页"
+        }
+      }
+    }
+  }
+}

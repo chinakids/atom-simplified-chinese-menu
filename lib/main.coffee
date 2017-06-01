@@ -1,11 +1,10 @@
 class ChineseSetting
 
   constructor: ->
-    CSON = require 'cson'
     #菜单
-    @M = CSON.load __dirname + '/../def/menu_'+process.platform+'.cson'
+    @M = require __dirname + '/../def/menu_'+process.platform+'.json'
     #右键菜单
-    @C = CSON.load __dirname + '/../def/context.cson'
+    @C = require __dirname + '/../def/context.json'
 
 
   activate: (state) ->
@@ -52,7 +51,6 @@ class ChineseSetting
         @updateMenu(menu.submenu, set.submenu)
 
   updateContextMenu: () ->
-    console.log '执行 updateContextMenu'
     for itemSet in atom.contextMenu.itemSets
       set = @C.Context[itemSet.selector]
       continue if not set
