@@ -55,9 +55,11 @@ class ChineseSetting
       set = @C.Context[itemSet.selector]
       continue if not set
       for item in itemSet.items
+        console.log(item)
         continue if item.type is "separator"
         label = set[item.command]
         item.label = label if label?
+        console.log(item)
 
   updateSettings: (onSettingsOpen = false) ->
     setTimeout(@delaySettings, 0, onSettingsOpen)

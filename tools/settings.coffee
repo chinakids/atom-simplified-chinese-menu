@@ -64,46 +64,58 @@ applyToPanel = (e) ->
   applyButtonToolbar()
 
 applyInstallPanelOnSwitch = () ->
-  applySectionHeadings(true)
-  applyButtonToolbar()
-  inst = document.querySelector('div.section:not(.themes-panel)')
-  info = inst.querySelector('.native-key-bindings')
-  info.querySelector('span:nth-child(2)').textContent = "扩展·主题 "
+  try
+    applySectionHeadings(true)
+    applyButtonToolbar()
+    inst = document.querySelector('div.section:not(.themes-panel)')
+    info = inst.querySelector('.native-key-bindings')
+    info.querySelector('span:nth-child(2)').textContent = "扩展·主题 "
+  catch e
+    console.log e
 
 applySpecialHeading = (area, org, text) ->
-  sh = getTextMatchElement(area, '.section-heading', org)
-  return unless sh && !isAlreadyLocalized(sh)
-  sh.textContent = text
-  # span = document.createElement('span')
-  # span.textContent = org
-  # applyTextWithOrg(span, text)
-  # sh.appendChild(span)
+  try
+    sh = getTextMatchElement(area, '.section-heading', org)
+    return unless sh && !isAlreadyLocalized(sh)
+    sh.textContent = text
+    # span = document.createElement('span')
+    # span.textContent = org
+    # applyTextWithOrg(span, text)
+    # sh.appendChild(span)
+  catch e
+    console.log e
 
 applySectionHeadings = (force) ->
-  sv = document.querySelector('.settings-view')
-  for sh in S.Settings.sectionHeadings
-    el = getTextMatchElement(sv, '.section-heading', sh.label)
-    continue unless el
-    if !isAlreadyLocalized(el) and force
-      applyTextWithOrg(el, sh.value)
-  for sh in S.Settings.subSectionHeadings
-    el = getTextMatchElement(sv, '.sub-section-heading', sh.label)
-    continue unless el
-    if !isAlreadyLocalized(el) and force
-      applyTextWithOrg(el, sh.value)
+  try
+    sv = document.querySelector('.settings-view')
+    for sh in S.Settings.sectionHeadings
+      el = getTextMatchElement(sv, '.section-heading', sh.label)
+      continue unless el
+      if !isAlreadyLocalized(el) and force
+        applyTextWithOrg(el, sh.value)
+    for sh in S.Settings.subSectionHeadings
+      el = getTextMatchElement(sv, '.sub-section-heading', sh.label)
+      continue unless el
+      if !isAlreadyLocalized(el) and force
+        applyTextWithOrg(el, sh.value)
+  catch e
+    console.log e
 
 applyButtonToolbar = () ->
-  sv = document.querySelector('.settings-view')
-  for btn in sv.querySelectorAll('.meta-controls .install-button')
-    applyTextWithOrg(btn, "安装")
-  for btn in sv.querySelectorAll('.meta-controls .settings')
-    applyTextWithOrg(btn, "设置")
-  for btn in sv.querySelectorAll('.meta-controls .uninstall-button')
-    applyTextWithOrg(btn, "卸载")
-  for btn in sv.querySelectorAll('.meta-controls .icon-playback-pause span')
-    applyTextWithOrg(btn, "关闭")
-  for btn in sv.querySelectorAll('.meta-controls .icon-playback-play span')
-    applyTextWithOrg(btn, "启用")
+  try
+    sv = document.querySelector('.settings-view')
+    for btn in sv.querySelectorAll('.meta-controls .install-button')
+      applyTextWithOrg(btn, "安装")
+    for btn in sv.querySelectorAll('.meta-controls .settings')
+      applyTextWithOrg(btn, "设置")
+    for btn in sv.querySelectorAll('.meta-controls .uninstall-button')
+      applyTextWithOrg(btn, "卸载")
+    for btn in sv.querySelectorAll('.meta-controls .icon-playback-pause span')
+      applyTextWithOrg(btn, "关闭")
+    for btn in sv.querySelectorAll('.meta-controls .icon-playback-play span')
+      applyTextWithOrg(btn, "启用")
+  catch e
+    console.log e
 
 getTextMatchElement = (area, query, text) ->
   elems = area.querySelectorAll(query)
@@ -119,32 +131,41 @@ isAlreadyLocalized = (elem) ->
   return localized is 'true'
 
 applyTextContentBySettingsId = (data) ->
-  el = document.querySelector("[id='#{data.id}']")
-  return unless el
-  ctrl = el.closest('.control-group')
-  applyTextWithOrg(ctrl.querySelector('.setting-title'), data.title)
-  applyHtmlWithOrg(ctrl.querySelector('.setting-description'), data.desc)
-  if data.selectOptions
-    options = el.querySelectorAll('option')
-    for opt in options
-      before = String(opt.textContent)
-      applyTextWithOrg(opt, data.selectOptions[before].value)
+  try
+    el = document.querySelector("[id='#{data.id}']")
+    return unless el
+    ctrl = el.closest('.control-group')
+    applyTextWithOrg(ctrl.querySelector('.setting-title'), data.title)
+    applyHtmlWithOrg(ctrl.querySelector('.setting-description'), data.desc)
+    if data.selectOptions
+      options = el.querySelectorAll('option')
+      for opt in options
+        before = String(opt.textContent)
+        applyTextWithOrg(opt, data.selectOptions[before].value)
+  catch e
+    console.log e
 
 applyTextWithOrg = (elem, text) ->
-  return unless text
-  before = String(elem.textContent)
-  return if before is text
-  elem.textContent = text
-  elem.setAttribute('title', before)
-  elem.setAttribute('data-localized', 'true')
+  try
+    return unless text
+    before = String(elem.textContent)
+    return if before is text
+    elem.textContent = text
+    elem.setAttribute('title', before)
+    elem.setAttribute('data-localized', 'true')
+  catch e
+    console.log e
 
 applyHtmlWithOrg = (elem, text) ->
-  return unless text
-  before = String(elem.textContent)
-  return if before is text
-  elem.innerHTML = text
-  elem.setAttribute('title', before)
-  elem.setAttribute('data-localized', 'true')
+  try
+    return unless text
+    before = String(elem.textContent)
+    return if before is text
+    elem.innerHTML = text
+    elem.setAttribute('title', before)
+    elem.setAttribute('data-localized', 'true')
+  catch e
+    console.log e
 
 
 Settings =
@@ -181,11 +202,8 @@ Settings =
     # Left-side menu
     menu = sv.querySelector('.settings-view .panels-menu')
     return unless menu
-    console.log 'x'
     for d in S.Settings.menu
       el = menu.querySelector("[name='#{d.label}']>a")
-      console.log el
-      console.log d.value
       applyTextWithOrg el, d.value
 
     # Left-side button
