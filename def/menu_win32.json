@@ -329,8 +329,49 @@
         "Toggle Command Palette": {
           "value": "切换命令面板"
         },
+        "Toggle Git Tab": {
+          "value": "切换Git面板"
+        },
+        "Toggle GitHub Tab": {
+          "value": "切换GitHub面板"
+        },
         "Toggle Tree View": {
           "value": "切换目录树"
+        },
+        "Toggle Diagnostics": {
+          "value": "切换诊断"
+        },
+        "Diagnostics": {
+          "value": "诊断",
+          "submenu": {
+            "Fix All in Current File": {
+              "value": "修正当前文件中所有"
+            },
+            "Open All Files with Errors": {
+              "value": "打开所有包含错误的文件"
+            },
+            "Go To First Diagnostic": {
+              "value": "跳至第一个诊断"
+            },
+            "Go To Last Diagnostic": {
+              "value": "跳至最后一个诊断"
+            },
+            "Go To Next Diagnostic": {
+              "value": "跳至下一个诊断"
+            },
+            "Go To Previous Diagnostic": {
+              "value": "跳至前一个诊断"
+            },
+            "Go To Next Diagnostic Trace": {
+              "value": "跳至下一个诊断跟踪"
+            },
+            "Go To Previous Diagnostic Trace": {
+              "value": "跳至前一个诊断跟踪"
+            }
+          }
+        },
+        "Toggle Outline": {
+          "value": "切换大纲"
         }
       }
     },
@@ -431,6 +472,9 @@
         },
         "Find Modified File": {
           "value": "查找修改后的文件"
+        },
+        "Find References": {
+          "value": "查找引用"
         }
       }
     },
@@ -484,6 +528,17 @@
             },
             "Toggle Diff List": {
               "value": "打开关闭 Diff 列表"
+            }
+          }
+        },
+        "GitHub": {
+          "value": "GitHub",
+          "submenu": {
+            "Toggle Git Tab": {
+              "value": "切换Git面板"
+            },
+            "Toggle GitHub Tab": {
+              "value": "切换GitHub面板"
             }
           }
         },
@@ -559,10 +614,10 @@
             "History": {
               "value": "历史"
             },
-            "Issue": {
+            "Issues": {
               "value": "问题"
             },
-            "Repostory": {
+            "Repository": {
               "value": "代码库"
             }
           }
