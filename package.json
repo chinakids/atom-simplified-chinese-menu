@@ -1,13 +1,50 @@
 {
-  "name": "simplified-chinese-menu",
-  "main": "./lib/main",
-  "version": "5.3.4",
-  "description": "Atom 的简体中文语言包，完整汉化，兼容所有已发布版本 Atom",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chinakids/atom-simplified-chinese-menu"
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+        "spec": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\zyl55\\AppData\\Local\\Temp\\apm-install-dir-1171014-51508-1nk9mej.5z93fvfgvi"
+    ]
+  ],
+  "_from": "..\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+  "_id": "simplified-chinese-menu@5.3.4",
+  "_inCache": true,
+  "_location": "/simplified-chinese-menu",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+    "spec": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+    "type": "local"
   },
-  "license": "MIT",
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+  "_shasum": "286a7d07dbbf60718815f0f802d16a92422c0f60",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\d-1171014-51508-16yhre0.kuqiz1if6r\\package.tgz",
+  "_where": "C:\\Users\\zyl55\\AppData\\Local\\Temp\\apm-install-dir-1171014-51508-1nk9mej.5z93fvfgvi",
+  "bugs": {
+    "url": "https://github.com/chinakids/atom-simplified-chinese-menu/issues"
+  },
+  "dependencies": {},
+  "description": "Atom 的简体中文语言包，完整汉化，兼容所有已发布版本 Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/chinakids/atom-simplified-chinese-menu#readme",
   "keywords": [
     "language",
     "chinesee",
@@ -16,8 +53,15 @@
     "汉化",
     "chinakids"
   ],
-  "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "simplified-chinese-menu",
+  "optionalDependencies": {},
+  "readme": "# Atom - Chinese(Simplified) Menu | 喜欢的话请给个 Star 吧~\n\nAtom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉化、右键菜单汉化以及设置汉化\n\n![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot.png)\n\n![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot2.png)\n\n![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot3.png)\n\n### 说明\n```\n  作者在翻译过程中并没有完全照翻官方原文内容，在保证官方原意的基础上尽可能的贴近使用口语与理解，如果有翻译错误或容易产生歧义的地方欢迎来 Github 的 Issues 指出来~\n\n  我们将共同学习共同进步~欢迎共同交流~\n\n  如果喜欢本插件，请在 Github 或者 Atom shop 给我给 star ~ 3Q~\n\n  By. chinakids\n```\n\n```\n  作者在翻译过程中并没有完全照翻官方原文内容，在保证官方原意的基础上尽可能的贴近使用口语与理解，如果有翻译错误或容易产生歧义的地方欢迎来 Github 的 Issues 指出来~\n\n  我们将共同学习共同进步~欢迎共同交流~\n\n  如果喜欢本插件，请在 Github 或者 Atom shop 给我给 star ~ 3Q~\n\n  By. chinakids\n```\n\n- 关于插件设置\n\n  为了照顾部分朋友日常使用感受，增加了插件设置选项，可选`菜单`、`右键菜单`和`设置界面`是否应用汉化。\n\n  ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot4.png)\n\n- 初期版本基于 syon 的 japanese-menu 衍生，后期独立维护的中文解决方案(完整汉化)。\n\n  [japanese-menu](https://atom.io/packages/japanese-menu)\n\n- 翻译参考\n  [oxs本地化建议](https://developer.apple.com/cn/internationalization/)\n\n  [微软术语检索](http://www.microsoft.com/Language/zh-cn/Search.aspx)\n\n  sublime 的汉化方案\n\n  以及其他来自网络的资料\n\n- 更新记录\n\n  [更新记录(CHANGELOG)](https://github.com/chinakids/atom-simplified-chinese-menu/blob/master/CHANGELOG.md)\n\n### 其他\n\n- 繁体中文(Sheng-Bo)：\n\n  [cht-menu](https://atom.io/packages/cht-menu)\n\n- 日文(syon)：\n\n  [japanese-menu](https://atom.io/packages/japanese-menu)\n\n### 平台测试\n\nlinux，mac，win 均通过测试\n\n\n### LICENSE\n[MIT](https://github.com/chinakids/atom-chinese-menu/raw/master/LICENSE.md)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinakids/atom-simplified-chinese-menu.git"
   },
-  "dependencies": {}
+  "version": "5.3.4"
 }
