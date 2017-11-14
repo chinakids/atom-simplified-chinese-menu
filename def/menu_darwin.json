@@ -464,6 +464,12 @@
         "Toggle Command Palette": {
           "value": "切换命令面板"
         },
+        "Toggle Git Tab":{
+          "value": "切换Git面板"
+        },
+        "Toggle GitHub Tab":{
+          "value": "切换GitHub面板"
+        },
         "Toggle Tree View": {
           "value": "切换目录树"
         }
