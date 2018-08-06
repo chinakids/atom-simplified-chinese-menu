@@ -1,5 +1,15 @@
 # Atom - Chinese(Simplified) Menu | 喜欢的话请给个 Star 吧~
 
+```
+思前想后，停止维护了
+1.山寨包太多了，做这个显得没多大意义了
+2.最初做这个只是觉得atom好玩
+3.atom性能明显赶不上开发需要了，现在更推荐大家使用vscode
+综上感谢大家这段时间的厚爱~
+```
+
+
+
 Atom  的简体中文汉化语言包,目前最全的汉化包。包含菜单汉化、右键菜单汉化以及设置汉化
 
 ![screenshot](https://github.com/chinakids/atom-chinese-menu/raw/master/screenshot/screenshot.png)
